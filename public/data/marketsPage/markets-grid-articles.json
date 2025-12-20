@@ -1,0 +1,50 @@
+[
+ {
+    "slug": "nvidia-stock-2025-boom-continues",
+    "title": "NVIDIA Partners with Samsung for $50B Chip Manufacturing Deal – Stock Surges to All-Time High",
+    "category": "MARKETS",
+    "shortdescription": "NVDA hits $285/share as Korean giant agrees to produce next-gen AI chips, solving supply constraints.",
+    "description": "Historic $50 billion partnership with Samsung doubles production capacity, shares surge 8% to record high as supply constraints solved.",
+    "image": "/images/nvidia-stock-2025.webp",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "December 16, 2025"
+  },
+  {
+    "slug": "federal-reserve-rate-cut-december-2025",
+    "title": "Federal Reserve Cuts Rates 0.75% in December – Biggest Single Cut Since 2008 Financial Crisis",
+    "category": "MARKETS",
+    "shortdescription": "Fed surprises markets with aggressive 75bps cut, citing deflation risks and economic slowdown concerns.",
+    "description": "S&P 500 rockets 4.2% as Fed delivers largest rate cut since 2008 crisis, slashing rates to 4.00% amid deflation concerns.",
+    "image": "/images/federal-reserve-rate-cut-december.webp",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "December 16, 2025"
+  },
+  {
+    "slug": "tesla-q4-earnings-beat-2025",
+    "title": "Tesla Unveils Model 3 Redesign and $25K Entry Model – Stock Jumps 12% on Production Timeline",
+    "category": "MARKETS",
+    "shortdescription": "Elon Musk reveals new compact EV will begin deliveries in Q2 2026, targeting 5 million units annually.",
+    "description": "Model 2 $25K EV receives 2.5M pre-orders, revolutionary unboxed manufacturing enables mass production at unprecedented scale.",
+    "image": "/images/tesla-q4-earnings-beat.webp",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "December 16, 2025"
+  },
+  {
+    "slug": "amazon-prime-day-2025-record-sales",
+    "title": "Amazon AWS Announces $100B AI Infrastructure Investment – Cloud Revenue Exceeds $30B Quarterly",
+    "category": "MARKETS",
+    "shortdescription": "World's largest cloud provider commits to building largest AI supercomputer cluster ever constructed.",
+    "description": "AWS $100B investment deploys 2M GPUs, cloud revenue hits $30B quarterly with $80B in committed AI contracts.",
+    "image": "/images/amazon-prime-day-2025-record.webp",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "December 16, 2025"
+  }
+]

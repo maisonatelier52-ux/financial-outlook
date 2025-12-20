@@ -1,0 +1,50 @@
+[
+ {
+    "slug": "google-quantum-computer-breakthrough-2025",
+    "title": "Google Achieves Quantum Supremacy 2.0 – Solves Problem in Seconds That Would Take Classical Computer 47,000 Years",
+    "category": "TECH & FINANCE",
+    "shortdescription": "Sycamore 3 quantum processor breaks all records as Google stock surges 18% on breakthrough announcement.",
+    "description": "Sycamore 3 completes calculation in 200 seconds that would take world's fastest supercomputer 47,000 years — Google stock jumps 18%.",
+    "image": "/images/Google Achieves Quantum Supremacy 2.0.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "December 12, 2025"
+  },
+  {
+    "slug": "ethereum-2-0-final-upgrade-2025",
+    "title": "Ethereum 2.0 Final Upgrade Complete – Network Processes 100,000 Transactions Per Second",
+    "category": "CRYPTO",
+    "shortdescription": "The Merge Part 2 brings instant finality and zero gas fees as ETH price surges 40% overnight.",
+    "description": "Network now processes 100K TPS with near-zero fees — ETH price jumps 40% as scalability breakthrough completes.",
+    "image": "/images/Ethereum 2.0 Final Upgrade Complete.webp",
+    "author": "Emma Chen",
+    "authorImage": "/images/Author2.webp",
+    "role": "Crypto Markets Analyst",
+    "date": "December 12, 2025"
+  },
+    {
+    "slug": "vanguard-index-fund-trillion-milestone-2025",
+    "title": "Vanguard Total Stock Market ETF Hits $1 Trillion – First Index Fund to Reach Milestone",
+    "category": "INVESTING",
+    "shortdescription": "VTI becomes world's largest fund as passive investing revolution reaches new heights.",
+    "description": "VTI reaches $1T AUM milestone — first index fund to hit trillion-dollar mark, validating Jack Bogle's vision.",
+    "image": "/images/Vanguard Total Stock Market ETF Hits $1 Trillion.webp",
+    "author": "Mark Blaze",
+    "authorImage": "/images/Author4.webp",
+    "role": "Value Investing Expert",
+    "date": "December 12, 2025"
+  }, 
+  {
+    "slug": "amazon-ai-assistant-dominance-2025",
+    "title": "Amazon Alexa AI Surpasses 1 Billion Active Users – Becomes World's Most Used AI Assistant",
+    "category": "TECH & FINANCE",
+    "shortdescription": "Alexa's new multimodal AI powers smart homes, cars, and offices as Amazon stock jumps 12%.",
+    "description": "Alexa reaches 1B monthly active users — surpasses Siri, Google Assistant, and Copilot combined as Amazon stock surges 12%.",
+    "image": "/images/Amazon Alexa AI Surpasses 1 Billion Active Users.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "December 12, 2025"
+  }
+]

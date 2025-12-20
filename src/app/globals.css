@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-sticky > div {
+  min-height: 600px;
+}
+
+.article-end {
+  min-height: 1px;
+}

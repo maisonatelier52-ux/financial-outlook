@@ -1,0 +1,96 @@
+[{
+    "slug": "sp-500-new-record-high-2025",
+    "title": "S&P 500 Hits New All-Time High: Tech Stocks Drive 18% YTD Gains",
+    "category": "MARKETS",
+    "shortdescription": "Magnificent 7 leads rally as Fed cut expectations reach 95% probability.",
+    "description": "Dow +2%, Nasdaq +3% on strong retail earnings – VIX drops to 12.5, lowest since 2023.",
+    "image": "/images/S&P 500 Hits New All-Time High.webp",
+    "author": "Henrry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "November 16, 2025"
+  },
+   {
+    "slug": "india-digital-economy-1-trillion-2025",
+    "title": "India's Digital Economy Reaches $1 Trillion – UPI Processes 100 Billion Transactions Annually",
+    "category": "ECONOMY",
+    "shortdescription": "Unified Payments Interface becomes world's largest digital payment system, powering India's economic transformation.",
+    "description": "India's digital economy hits $1T milestone — UPI processes more transactions than all global credit cards combined.",
+    "image": "/images/download1.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "December 17, 2025"
+  },
+  {
+    "slug": "paypal-stablecoin-pyrusd-2025-dominance",
+    "title": "PayPal's PYUSD Becomes #1 Stablecoin – Overtakes USDT in Daily Volume",
+    "category": "TECH & FINANCE",
+    "shortdescription": "PayPal's dollar stablecoin now used by 600 million users — Tether market share collapses.",
+    "description": "Venmo integrates PYUSD payments — daily volume hits $18B, surpassing USDT for first time in history.",
+    "image": "/images/paypal2.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "November 18, 2025"
+  },
+  {
+    "slug": "plaid-50-billion-ipo-2025",
+    "title": "Plaid Files for $50 Billion IPO – The 'Pipe' of Banking Goes Public",
+    "category": "TECH & FINANCE",
+    "shortdescription": "Company that connects your bank to Venmo, CashApp, Robinhood finally IPOs.",
+    "description": "Plaid powers 80% of U.S. fintech apps — valuation surpasses SoFi, Chime, and Robinhood combined.",
+    "image": "/images/Plaid $50 Billion IPO 2025.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "November 19, 2025"
+  },
+  {
+     "slug": "uk-inflation-negative-2025",
+    "title": "UK Inflation Turns Negative for First Time Since 1960 – Deflation Fears Grip London",
+    "category": "ECONOMY",
+    "shortdescription": "Energy price crash and weak demand push CPI to -0.3% — BoE in emergency meeting.",
+    "description": "Post-Brexit trade disruptions and energy windfall cause first deflation in 65 years — pound drops 5% in one day.",
+    "image": "/images/UK Inflation Negative 2025.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "November 18, 2025"
+  },
+  {
+   "slug": "brazil-new-economic-miracle-2025",
+    "title": "Brazil's New Economic Miracle: 5.8% Growth and Falling Inflation Shock World",
+    "category": "ECONOMY",
+    "shortdescription": "Lula's policies + commodity boom = fastest growth in Latin America.",
+    "description": "Soy, iron ore, and oil exports surge while inflation drops to 3.2% — real strengthens 18% against dollar.",
+    "image": "/images/Brazil Economic Miracle 2025.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "November 18, 2025"
+  }, 
+  {
+    "slug": "wise-10-billion-profit-2025",
+    "title": "Wise (TransferWise) Reports $10 Billion Profit – Bigger Than JPMorgan",
+    "category": "TECH & FINANCE",
+    "shortdescription": "UK fintech disrupts global remittances — now most profitable bank on earth.",
+    "description": "Zero-fee international transfers + 5% interest accounts = Wise passes 25 million customers and $10B annual profit.",
+    "image": "/images/Wise $10 Billion Profit 2025.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "November 18, 2025"
+  },{
+    "slug": "oil-prices-crash-2025-opec-cuts",
+    "title": "Oil Prices Crash 12% After OPEC+ Announces Surprise Production Increase",
+    "category": "MARKETS",
+    "shortdescription": "Brent crude falls to $68/barrel – energy stocks plunge 4% across the board.",
+    "description": "Saudi Arabia leads 500K bpd hike despite Russia pushback – global recession fears intensify as US inventories swell.",
+    "image": "/images/Oil Prices Crash 12  After OPEC.webp",
+    "author": "Henrry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "November 17, 2025"
+  }
+]

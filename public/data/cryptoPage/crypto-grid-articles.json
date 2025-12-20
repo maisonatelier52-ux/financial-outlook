@@ -1,0 +1,50 @@
+[
+ {
+    "slug": "ethereum-2-0-final-upgrade-2025",
+    "title": "Ethereum 2.0 Final Upgrade Complete – Network Processes 100,000 Transactions Per Second",
+    "category": "CRYPTO",
+    "shortdescription": "The Merge Part 2 brings instant finality and zero gas fees as ETH price surges 40% overnight.",
+    "description": "Network now processes 100K TPS with near-zero fees — ETH price jumps 40% as scalability breakthrough completes.",
+    "image": "/images/Ethereum 2.0 Final Upgrade Complete.webp",
+    "author": "Emma Chen",
+    "authorImage": "/images/Author2.webp",
+    "role": "Crypto Markets Analyst",
+    "date": "December 12, 2025"
+  },
+  {
+    "slug": "tether-bitcoin-mining-2025",
+    "title": "Tether Launches $1 Billion Bitcoin Mining Operation – Largest Corporate Mining Venture Ever",
+    "category": "CRYPTO",
+    "shortdescription": "USDT issuer enters mining with massive investment across Paraguay, El Salvador, and Texas facilities.",
+    "description": "Tether deploys 100,000 ASIC miners using 100% renewable energy — expects 10 EH/s hashrate by Q3 2026.",
+    "image": "/images/Ethereum 'Pectra' Upgrade Goes Live.webp",
+    "author": "Emma Chen",
+    "authorImage": "/images/Author2.webp",
+    "role": "Crypto Markets Analyst",
+    "date": "December 17, 2025"
+  },
+  {
+    "slug": "bitcoin-lightning-million-nodes-2025",
+    "title": "Bitcoin Lightning Network Hits 1 Million Nodes – Payment Rails Now Rival Visa",
+    "category": "CRYPTO",
+    "shortdescription": "Layer 2 solution processes 500,000 transactions per second as global adoption explodes.",
+    "description": "Lightning Network capacity grows to 25,000 BTC ($2.5B) — McDonald's, Starbucks, Walmart now accept Lightning payments.",
+    "image": "/images/Solana Mobile 2 Sells Out in 24 Hours.webp",
+    "author": "Emma Chen",
+    "authorImage": "/images/Author2.webp",
+    "role": "Crypto Markets Analyst",
+    "date": "December 17, 2025"
+  },
+  {
+    "slug": "blackrock-bitcoin-etf-100-billion-2025",
+    "title": "BlackRock Bitcoin ETF Reaches $100 Billion AUM – Largest ETF Launch in History",
+    "category": "CRYPTO",
+    "shortdescription": "IBIT shatters all records as institutional adoption accelerates beyond expectations.",
+    "description": "iShares Bitcoin Trust holds 4.5% of all Bitcoin ever mined — combined spot ETF market surpasses gold ETFs.",
+    "image": "/images/Coinbase Settles with SEC for  200M.webp",
+    "author": "Emma Chen",
+    "authorImage": "/images/Author2.webp",
+    "role": "Crypto Markets Analyst",
+    "date": "December 17, 2025"
+  }
+]
