@@ -59,6 +59,10 @@ export const metadata: Metadata = {
     },
   },
 
+  icons: { 
+    icon: "/images/fin-favIcon3.ico"
+  },
+
   alternates: {
     canonical: "https://www.financialoutlook.xyz",
   },
@@ -72,13 +76,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 
         <meta name="google-site-verification" content="bR-eiO8rI3epTbJIowoHjcJcjkDw-65UGbGr6deTk_0" />
-        <link rel="icon" href="/images/fin-favIcon2.svg" type="image/svg+xml"></link>
+        <link rel="icon" href="/images/fin-favIcon3.ico" type="image/x-icon"></link>
 
         {/* Favicon */}
-        <link rel="apple-touch-icon" href="/images/fin-favIcon2.svg" />
+        <link rel="apple-touch-icon" href="/images/fin-favIcon3.ico" />
 
-        <link rel="icon" href="/images/fin-favIcon2.svg" />
-        <link rel="shortcut icon" href="/images/fin-favIcon2.svg"  />
+        <link rel="icon" href="/images/fin-favIcon3.ico" />
+        <link rel="shortcut icon" href="/images/fin-favIcon3.ico"  />
 
       </head>
       <body className="bg-black text-white antialiased max-w-7xl mx-auto">
