@@ -48,51 +48,51 @@
     "date": "December 11, 2024"
   },
   {
-    "slug": "us-national-debt-36-trillion-2025",
-    "title": "U.S. National Debt Hits $36 Trillion – Interest Payments Now Larger Than Defense Budget",
+    "slug": "us-economy-growth-q3-2025",
+    "title": "US Economy Defies Expectations with 4.3% Growth in Q3 2025",
     "category": "ECONOMY",
-    "shortdescription": "Interest on debt exceeds $1.2T annually – bigger than entire military spending.",
-    "description": "CBO warns debt-to-GDP ratio will hit 130% by 2030 — Treasury yields spike as foreign buyers pull back.",
-    "image": "/images/US Debt $36 Trillion 2025.webp",
+    "shortdescription": "Robust consumer spending and rising exports fuel strongest quarter in two years.",
+    "description": "Despite high interest rates, the US economy accelerated in the third quarter, driven by resilient consumer demand and a surge in business investment.",
+    "image": "/images/S&P 500 Hits New All-Time High.webp",
     "author": "Macro Anton",
     "authorImage": "/images/Author7.webp",
     "role": "Chief Economist",
-    "date": "November 19, 2025"
+    "date": "December 27, 2025"
   },
   {
-    "slug": "european-union-green-energy-deal-2025",
-    "title": "EU Signs Historic $500 Billion Green Energy Deal – Commits to 100% Renewable by 2035",
+    "slug": "southern-europe-economy-boom-2025",
+    "title": "Italy and Spain Outperform: Borrowing Costs Hit 16-Year Lows",
     "category": "ECONOMY",
-    "shortdescription": "European Union accelerates climate goals with massive investment in solar, wind, and hydrogen infrastructure.",
-    "description": "€450B investment package to achieve 100% renewable energy by 2035 — creates 5M jobs and reduces energy imports by €200B annually.",
+    "shortdescription": "Southern European economies shake off 'periphery' tag with strong growth.",
+    "description": "Fiscal discipline and tourism rebound lead to narrowing spreads against German bunds, marking a significant shift in the Eurozone's economic balance.",
     "image": "/images/EU Signs Historic $500 Billion Green Energy Deal.webp",
     "author": "Macro Anton",
     "authorImage": "/images/Author7.webp",
     "role": "Chief Economist",
-    "date": "December 12, 2025"
+    "date": "December 27, 2025"
   },
   {
-    "slug": "uk-inflation-negative-2025",
-    "title": "UK Inflation Turns Negative for First Time Since 1960 – Deflation Fears Grip London",
+    "slug": "china-economy-slowdown-2025",
+    "title": "China's Growth Slows to Below 3% in 2025, Missing Official Targets",
     "category": "ECONOMY",
-    "shortdescription": "Energy price crash and weak demand push CPI to -0.3% — BoE in emergency meeting.",
-    "description": "Post-Brexit trade disruptions and energy windfall cause first deflation in 65 years — pound drops 5% in one day.",
-    "image": "/images/UK Inflation Negative 2025.webp",
+    "shortdescription": "Industrial profits plunge and deflationary pressures persist as property crisis drags on.",
+    "description": "The world's second-largest economy struggles with weak domestic demand and manufacturing slowdown, prompting calls for more aggressive stimulus.",
+    "image": "/images/China $2 Trillion Stimulus 2025.webp",
     "author": "Macro Anton",
     "authorImage": "/images/Author7.webp",
     "role": "Chief Economist",
-    "date": "November 18, 2025"
+    "date": "December 27, 2025"
   },
   {
-    "slug": "brazil-new-economic-miracle-2025",
-    "title": "Brazil's New Economic Miracle: 5.8% Growth and Falling Inflation Shock World",
+    "slug": "silver-price-record-2025",
+    "title": "Silver Tops $75/oz as Geopolitical Risks Escalate",
     "category": "ECONOMY",
-    "shortdescription": "Lula's policies + commodity boom = fastest growth in Latin America.",
-    "description": "Soy, iron ore, and oil exports surge while inflation drops to 3.2% — real strengthens 18% against dollar.",
-    "image": "/images/Brazil Economic Miracle 2025.webp",
+    "shortdescription": "Safe-haven demand and industrial use drive silver to historic highs.",
+    "description": "Escalating tensions in Venezuela and continued demand for green energy technologies push silver prices into uncharted territory, outperforming gold.",
+    "image": "/images/Gold Hits oz AllTime High.webp",
     "author": "Macro Anton",
     "authorImage": "/images/Author7.webp",
     "role": "Chief Economist",
-    "date": "November 18, 2025"
+    "date": "December 27, 2025"
   }
 ]
