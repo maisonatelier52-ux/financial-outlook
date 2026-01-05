@@ -37,6 +37,11 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       return article.heroImage;
     }
     
+    // Check for julioData image if available
+    if (article.julioData && article.julioData.image) {
+      return article.julioData.image;
+    }
+    
     // Look for the first image in content array
     if (article.content && Array.isArray(article.content)) {
       const firstImageBlock = article.content.find(block => block.type === 'image');
@@ -114,6 +119,11 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
   const getSchemaImageUrl = (): string => {
     if (articleData.heroImage) {
       return articleData.heroImage;
+    }
+    
+    // Check for julioData image if available
+    if (articleData.julioData && articleData.julioData.image) {
+      return articleData.julioData.image;
     }
     
     // Look for the first image in content array

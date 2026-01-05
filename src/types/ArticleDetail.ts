@@ -14,4 +14,17 @@ export interface ArticleData {
   date: string;
   readingTime: string;
   content: ArticleContentBlock[];
+  julioData?: {
+    slug: string;
+    title: string;
+    category: string;
+    shortdescription: string;
+    description: string;
+    image: string;
+    author: string;
+    authorImage: string;
+    role: string;
+    date: string;
+    julio?: boolean;
+  };
 }
