@@ -37,17 +37,17 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       return article.heroImage;
     }
     
-    // Check for julioData image if available
-    if (article.julioData && article.julioData.image) {
-      return article.julioData.image;
-    }
-    
     // Look for the first image in content array
     if (article.content && Array.isArray(article.content)) {
       const firstImageBlock = article.content.find(block => block.type === 'image');
       if (firstImageBlock && firstImageBlock.content) {
         return firstImageBlock.content as string;
       }
+    }
+    
+    // Check for julioData image if available (lower priority)
+    if (article.julioData && article.julioData.image) {
+      return article.julioData.image;
     }
     
     // Fallback to a default image if no image is found
@@ -121,17 +121,17 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
       return articleData.heroImage;
     }
     
-    // Check for julioData image if available
-    if (articleData.julioData && articleData.julioData.image) {
-      return articleData.julioData.image;
-    }
-    
     // Look for the first image in content array
     if (articleData.content && Array.isArray(articleData.content)) {
       const firstImageBlock = articleData.content.find(block => block.type === 'image');
       if (firstImageBlock && firstImageBlock.content) {
         return firstImageBlock.content as string;
       }
+    }
+    
+    // Check for julioData image if available (lower priority)
+    if (articleData.julioData && articleData.julioData.image) {
+      return articleData.julioData.image;
     }
     
     // Fallback to a default image if no image is found
