@@ -34,24 +34,24 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   // Get image for social sharing - use heroImage if available, otherwise extract first image from content
   const getImageUrl = (): string => {
     if (article.heroImage) {
-      return article.heroImage;
+      return article.heroImage.startsWith('http') ? article.heroImage : `https://www.financialoutlook.xyz${article.heroImage}`;
     }
     
     // Look for the first image in content array
     if (article.content && Array.isArray(article.content)) {
       const firstImageBlock = article.content.find(block => block.type === 'image');
       if (firstImageBlock && firstImageBlock.content) {
-        return firstImageBlock.content as string;
+        return firstImageBlock.content.startsWith('http') ? firstImageBlock.content : `https://www.financialoutlook.xyz${firstImageBlock.content}` as string;
       }
     }
     
     // Check for julioData image if available (lower priority)
     if (article.julioData && article.julioData.image) {
-      return article.julioData.image;
+      return article.julioData.image.startsWith('http') ? article.julioData.image : `https://www.financialoutlook.xyz${article.julioData.image}`;
     }
     
     // Fallback to a default image if no image is found
-    return "/images/fin-logo.svg";
+    return "https://www.financialoutlook.xyz/images/fin-logo.svg";
   };
 
   const imageUrl = getImageUrl();
@@ -118,24 +118,24 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
   // Get image for JSON-LD schema - use heroImage if available, otherwise extract first image from content
   const getSchemaImageUrl = (): string => {
     if (articleData.heroImage) {
-      return articleData.heroImage;
+      return articleData.heroImage.startsWith('http') ? articleData.heroImage : `https://www.financialoutlook.xyz${articleData.heroImage}`;
     }
     
     // Look for the first image in content array
     if (articleData.content && Array.isArray(articleData.content)) {
       const firstImageBlock = articleData.content.find(block => block.type === 'image');
       if (firstImageBlock && firstImageBlock.content) {
-        return firstImageBlock.content as string;
+        return firstImageBlock.content.startsWith('http') ? firstImageBlock.content : `https://www.financialoutlook.xyz${firstImageBlock.content}` as string;
       }
     }
     
     // Check for julioData image if available (lower priority)
     if (articleData.julioData && articleData.julioData.image) {
-      return articleData.julioData.image;
+      return articleData.julioData.image.startsWith('http') ? articleData.julioData.image : `https://www.financialoutlook.xyz${articleData.julioData.image}`;
     }
     
     // Fallback to a default image if no image is found
-    return "/images/fin-logo.svg";
+    return "https://www.financialoutlook.xyz/images/fin-logo.svg";
   };
 
   const schemaImageUrl = getSchemaImageUrl();
