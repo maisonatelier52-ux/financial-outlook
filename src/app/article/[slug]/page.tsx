@@ -31,6 +31,25 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     };
   }
 
+  // Get image for social sharing - use heroImage if available, otherwise extract first image from content
+  const getImageUrl = (): string => {
+    if (article.heroImage) {
+      return article.heroImage;
+    }
+    
+    // Look for the first image in content array
+    if (article.content && Array.isArray(article.content)) {
+      const firstImageBlock = article.content.find(block => block.type === 'image');
+      if (firstImageBlock && firstImageBlock.content) {
+        return firstImageBlock.content;
+      }
+    }
+    
+    // Fallback to a default image if no image is found
+    return "/images/fin-logo.svg";
+  };
+
+  const imageUrl = getImageUrl();
   const url = `https://www.financialoutlook.xyz/article/${slug}`;
 
   return {
@@ -43,7 +62,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       description: article.shortdescription || article.title,
       url,
       siteName: "financialoutlook",
-      images: [{ url: article.heroImage, width: 1200, height: 630, alt: article.title }],
+      images: [{ url: imageUrl, width: 1200, height: 630, alt: article.title }],
       type: "article",
       publishedTime: article.date,
       authors: [article.author],
@@ -52,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       card: "summary_large_image",
       title: article.title,
       description: article.shortdescription || article.title,
-      images: [article.heroImage],
+      images: [imageUrl],
     },
     robots: { index: true, follow: true },
   };
@@ -91,6 +110,26 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
 
   const currentCategory = articleData.category?.toLowerCase() || "entertainment";
 
+  // Get image for JSON-LD schema - use heroImage if available, otherwise extract first image from content
+  const getSchemaImageUrl = (): string => {
+    if (articleData.heroImage) {
+      return articleData.heroImage;
+    }
+    
+    // Look for the first image in content array
+    if (articleData.content && Array.isArray(articleData.content)) {
+      const firstImageBlock = articleData.content.find(block => block.type === 'image');
+      if (firstImageBlock && firstImageBlock.content) {
+        return firstImageBlock.content;
+      }
+    }
+    
+    // Fallback to a default image if no image is found
+    return "/images/fin-logo.svg";
+  };
+
+  const schemaImageUrl = getSchemaImageUrl();
+
   return (
     <>
       {/* 3. PERFECT JSON-LD Schema */}
@@ -102,7 +141,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
             "@type": "NewsArticle",
             headline: articleData.title,
             description: articleData.shortdescription || articleData.title,
-            image: articleData.heroImage,
+            image: schemaImageUrl,
             datePublished: articleData.date,
             dateModified: articleData.date,
             author: {
