@@ -4,6 +4,7 @@ import FullHeader from "../../../components/FullHeader";
 import FooterSection from "../../../components/FooterSection";
 import ArticleWithSidebar from "../../../components/ArticleWithSidebar";
 import AdSection from "../../../components/AdSection";
+import ArticleGrid from "../../../components/ArticleGrid";
 import type { ArticleData } from "../../../components/MainArticleDetail";
 import { notFound } from "next/navigation";
 import HeaderClient from "../../../components/HeaderClient";
@@ -115,6 +116,38 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
 
   const currentCategory = articleData.category?.toLowerCase() || "entertainment";
 
+  // Load related articles based on category
+  const loadRelatedArticles = async () => {
+    const category = currentCategory.toLowerCase();
+    
+    try {
+      switch(category) {
+        case "markets":
+          return await import("../../../../public/data/related/markets-related-articles.json").then(m => m.default);
+        case "investing":
+          return await import("../../../../public/data/related/investing-related-articles.json").then(m => m.default);
+        case "crypto":
+          return await import("../../../../public/data/related/crypto-related-articles.json").then(m => m.default);
+        case "billionaires":
+          return await import("../../../../public/data/related/billionaires-related-articles.json").then(m => m.default);
+        case "economy":
+          return await import("../../../../public/data/related/economy-related-articles.json").then(m => m.default);
+        case "realestate":
+        case "real estate":
+          return await import("../../../../public/data/related/realestate-related-articles.json").then(m => m.default);
+        case "tech & finance":
+        case "techfinance":
+          return await import("../../../../public/data/related/techfinance-related-articles.json").then(m => m.default);
+        default:
+          return [];
+      }
+    } catch {
+      return [];
+    }
+  };
+
+  const relatedArticles = await loadRelatedArticles();
+
   // Get image for JSON-LD schema - use heroImage if available, otherwise extract first image from content
   const getSchemaImageUrl = (): string => {
     if (articleData.heroImage) {
@@ -182,6 +215,23 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
             currentPage={currentCategory}
           />
           <ArticleWithSidebar top5Articles={top5Data} article={articleData} />
+          
+          {/* Related News Section */}
+          {relatedArticles && relatedArticles.length > 0 && (
+            <section className="py-8 px-4 bg-white">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-6">
+                  <h2 className="text-3xl font-black text-red-600 mb-2 border-b-4 border-red-600 pb-2 inline-block">
+                    RELATED {currentCategory.toUpperCase()} NEWS
+                  </h2>
+                </div>
+                <ArticleGrid 
+                  data={relatedArticles} 
+                />
+              </div>
+            </section>
+          )}
+          
            <Banner text="Wealth, Financial Outlook & Market moves " />
 
           <FullHeader currentPage={currentCategory} />

@@ -23,7 +23,7 @@ const MainContentWithSidebar: React.FC<MainContentWithSidebarProps> = ({
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-6 gap-8 py-2 px-6 bg-black">
+    <div className="grid grid-cols-1 lg:grid-cols-6 gap-8 py-2  bg-black">
       {/* Main Grid - 4/6 columns */}
       <div className="lg:col-span-4">
         <MainArticleGrid

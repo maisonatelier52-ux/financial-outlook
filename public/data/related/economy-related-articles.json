@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "us-economy-growth-q3-2025",
+    "title": "US Economy Defies Expectations with 4.3% Growth in Q3 2025",
+    "category": "ECONOMY",
+    "shortdescription": "Robust consumer spending and rising exports fuel strongest quarter in two years.",
+    "description": "Despite high interest rates, the US economy accelerated in the third quarter, driven by resilient consumer demand and a surge in business investment.",
+    "image": "/images/S&P 500 Hits New All-Time High.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "December 27, 2025"
+  },
+  {
+    "slug": "fed-rate-cut-hawkish-december-2024",
+    "title": "Federal Reserve Cuts Rates 25 Basis Points But Signals Fewer Cuts in 2025 – Markets Tumble",
+    "category": "ECONOMY",
+    "shortdescription": "Fed delivers final 2024 rate cut but projects only two cuts in 2025, down from four – inflation concerns persist.",
+    "description": "Fed cuts rates to 4.25-4.50% but hawkish outlook sends S&P 500 down 3% — sticky inflation complicates 2025 policy.",
+    "image": "/images/Fed Cuts Rates 50bps December 2025.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "December 18, 2024"
+  },
+  {
+    "slug": "china-economic-stimulus-december-2024",
+    "title": "China Unveils Aggressive Stimulus Package – Shifts to 'Moderately Loose' Monetary Policy",
+    "category": "ECONOMY",
+    "shortdescription": "Beijing adopts most accommodative policy stance in 14 years as growth concerns mount – pledges more fiscal spending.",
+    "description": "China shifts to 'moderately loose' policy for first time since 2010 — $280B+ stimulus to combat property crisis.",
+    "image": "/images/China $2 Trillion Stimulus 2025.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "December 12, 2024"
+  },
+  {
+    "slug": "southern-europe-economy-boom-2025",
+    "title": "Italy and Spain Outperform: Borrowing Costs Hit 16-Year Lows",
+    "category": "ECONOMY",
+    "shortdescription": "Southern European economies shake off 'periphery' tag with strong growth.",
+    "description": "Fiscal discipline and tourism rebound lead to narrowing spreads against German bunds, marking a significant shift in the Eurozone's economic balance.",
+    "image": "/images/EU Signs Historic $500 Billion Green Energy Deal.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "December 27, 2025"
+  }
+]

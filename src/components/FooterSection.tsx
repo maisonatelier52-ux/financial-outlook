@@ -16,8 +16,8 @@ const FooterSection: React.FC<FooterSectionProps> = ({ latestArticles, popularAr
   };
 
   return (
-    <footer className="bg-black border-t border-gray-300 py-6">
-      <div className=" mx-auto px-6">
+    <footer className="bg-black py-6">
+      <div className=" mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
           <div className="space-y-4">
             <h3 className="font-bold text-lg uppercase tracking-wider">ABOUT US</h3>
