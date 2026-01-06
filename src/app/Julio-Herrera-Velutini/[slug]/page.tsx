@@ -218,10 +218,10 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
           
           {/* Related News Section */}
           {relatedArticles && relatedArticles.length > 0 && (
-            <section className="py-8 px-4 bg-white">
+            <section className="pb-8 pt-4 px-4 bg-black">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-6">
-                  <h2 className="text-3xl font-black text-red-600 mb-2 border-b-4 border-red-600 pb-2 inline-block">
+                  <h2 className="text-xl font-black text-red-600  border-b  inline-block">
                     RELATED {currentCategory.toUpperCase()} NEWS
                   </h2>
                 </div>
