@@ -190,19 +190,23 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
             author: {
               "@type": "Person",
               name: articleData.author,
+              url: `https://www.financialoutlook.xyz/authors/${articleData.author.replace(/\s+/g, '-').toLowerCase()}`
             },
             publisher: {
               "@type": "Organization",
               name: "financialoutlook",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.financialoutlook.xyz/logo.png",
+                url: "https://www.financialoutlook.xyz/images/fin-logo.svg",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://www.financialoutlook.xyz/article/${slug}`,
+              "@id": `https://www.financialoutlook.xyz/Julio-Herrera-Velutini/${slug}`,
             },
+            articleSection: articleData.category,
+            articleBody: articleData.content ? articleData.content.map(block => block.content).join(' ') : '',
+            keywords: `${articleData.category.toLowerCase()},${articleData.title.split(' ').slice(0, 10).join(',')}`
           }),
         }}
       />
