@@ -29,14 +29,7 @@ export const metadata: Metadata = {
     description: "Your #1 source for financial markets, business trends, and wealth creation strategies – updated daily.",
     url: "https://www.financialoutlook.xyz",
     siteName: "Financial Outlook",
-    images: [
-      {
-        url: "/images/fin-favIcon2.svg",
-        width: 1200,
-        height: 630,
-        alt: "Financial Outlook – Business, Wealth & Markets 2025",
-      },
-    ],
+    images:["https://www.financialoutlook.xyz/images/favIcon.png"], 
     locale: "en_US",
     determiner: "the",
   },
@@ -45,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Financial Outlook – Business, Wealth & Markets News 2025",
     description: "Financial Outlook delivers trusted business and wealth news: stock markets, crypto, billionaire moves, investing strategies, real estate, fintech, and global economy – updated daily 2025.",
-    images: ["/images/fin-favIcon2.svg"],
+    images:["https://www.financialoutlook.xyz/images/favIcon.png"], 
     creator: "@FinancialOutlook",
   },
 
@@ -60,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
 
-  icons: { 
+  icons: {
     icon: "/images/fin-favIcon2.ico"
   },
 
@@ -77,7 +70,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 
         <meta name="google-site-verification" content="bR-eiO8rI3epTbJIowoHjcJcjkDw-65UGbGr6deTk_0" />
-        
+
         {/* Essential Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="HandheldFriendly" content="True" />
@@ -88,13 +81,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta name="distribution" content="Global" />
         <meta name="rating" content="General" />
         <meta name="revisit-after" content="7 days" />
-        
+
         {/* Link Elements */}
         <link rel="icon" href="/images/fin-favIcon3.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/images/fin-favIcon3.ico" />
         <link rel="canonical" href="https://www.financialoutlook.xyz" />
         <link rel="alternate" type="application/rss+xml" title="Financial Outlook RSS Feed" href="https://www.financialoutlook.xyz/rss.xml" />
-        
+
         {/* DNS Prefetch and Preconnect */}
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />

@@ -100,7 +100,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const folder = config.folder ? `${config.folder}/` : "";
 
   // Fetch main articles to get a dynamic image
-  let firstArticleImage = "https://www.financialoutlook.xyz/images/fin-favIcon2.svg";
+  let firstArticleImage = "https://www.financialoutlook.xyz/images/favIcon.png";
 
   try {
     const mainArticles = await import(`../../../public/data/${folder}${key}-main-articles.json`).then(m => m.default);
