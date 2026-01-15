@@ -65,15 +65,13 @@ const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed inset-0 flex backdrop-blur items-center justify-center z-50 p-4 transition-all duration-300 ease-in-out ${
-        isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
-      }`}
+      className={`fixed inset-0 flex backdrop-blur items-center justify-center z-50 p-4 transition-all duration-300 ease-in-out ${isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
+        }`}
       onClick={handleOverlayClick}
     >
       <div
-        className={`w-full max-w-md sm:max-w-lg bg-black border-2 border-gray-700 transition-all duration-300 ease-in-out transform ${
-          isOpen ? "opacity-100 translate-y-0 scale-100" : "opacity-0 -translate-y-4 scale-95"
-        }`}
+        className={`w-full max-w-md sm:max-w-lg bg-black border-2 border-gray-700 transition-all duration-300 ease-in-out transform ${isOpen ? "opacity-100 translate-y-0 scale-100" : "opacity-0 -translate-y-4 scale-95"
+          }`}
       >
         {/* Search Input */}
         <div className="w-full bg-black border-2 border-gray-900 overflow-hidden flex items-center">
@@ -96,7 +94,7 @@ const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => {
             {results.map((article) => (
               <Link
                 key={article.slug}
-                href={`/article/${article.slug}`}
+                href={`/${article.category.toLowerCase().replace(/\s+/g, '')}/${article.slug}`}
                 title={`${article.title} – ${article.category} News`}
                 onClick={onClose}
                 className="block p-4 hover:bg-gray-900 border-b border-gray-200 transition"

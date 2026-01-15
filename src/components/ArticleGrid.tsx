@@ -14,7 +14,7 @@ const ArticleGrid: React.FC<ArticleGridProps> = ({ data }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-0 mt-0">
         {data.slice(0, 4).map((article, i) => {
           // Use the actual slug from the article
-          const articleUrl = `/article/${article.slug}`;
+          const articleUrl = `/${article.category.toLowerCase().replace(/\s+/g, '')}/${article.slug}`;
 
           return (
             <div
@@ -23,13 +23,13 @@ const ArticleGrid: React.FC<ArticleGridProps> = ({ data }) => {
                 } md:border-b-0 group cursor-pointer`}
             >
               {/* Full Card Clickable */}
-              <Link href={articleUrl}  title={`${article.title} – ${article.category} News`} className="block h-full">
+              <Link href={articleUrl} title={`${article.title} – ${article.category} News`} className="block h-full">
                 <Image
                   src={article.image}
                   alt={article.title}
                   loading="lazy"
-                  width={800}   
-                  height={80}              
+                  width={800}
+                  height={80}
                   className="mx-auto block w-full h-full object-cover hover:opacity-90 transition-opacity duration-200"
                 />
               </Link>

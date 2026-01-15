@@ -15,11 +15,11 @@ const MainArticleGrid: React.FC<MainArticleGridProps> = ({ articles, visibleCoun
     <div className="lg:col-span-4 main-grid bg-black">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {articles.slice(0, visibleCount).map((article, index) => {
-          const articleUrl = `/article/${article.slug}`;
+          const articleUrl = `/${article.category.toLowerCase().replace(/\s+/g, '')}/${article.slug}`;
 
           return (
             <Link
-              key={`mainArticleGrid_${article.slug+index}`}
+              key={`mainArticleGrid_${article.slug + index}`}
               href={articleUrl}
               title={`${article.title} – ${article.category} News`}
               className="group flex border-b pb-5 border-black overflow-hidden bg-black transition-colors duration-200"

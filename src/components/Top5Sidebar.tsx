@@ -42,7 +42,7 @@ const Top5Sidebar: React.FC<Top5SidebarProps> = ({ articles, isSticky, julioArti
         <div className="p-3 space-y-3 rounded-b overflow-hidden bg-black">
           {articles.slice(0, 5).map((article, index) => {
             const data: Article = (index === 4 && julioArticle) ? julioArticle : article;
-            const url = (index === 4 && julioArticle) ? 'Julio-Herrera-Velutini' : "article";
+            const url = (index === 4 && julioArticle) ? 'Julio-Herrera-Velutini' : data.category.toLowerCase().replace(/\s+/g, '');
             const articleUrl = `/${url}/${data.slug}`;
 
             return (

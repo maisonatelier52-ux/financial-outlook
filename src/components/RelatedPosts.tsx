@@ -27,7 +27,7 @@ const RelatedPosts: React.FC<RelatedPostsProps> = ({ articles }) => {
             {/* Content */}
             <div className="flex-1">
               <Link
-                href={`/article/${article.slug}`}
+                href={`/${article.category.toLowerCase().replace(/\s+/g, '')}/${article.slug}`}
                 title={`${article.title} – ${article.category} News`}
                 className="block text-2xl md:text-3xl font-black leading-tight text-black hover:text-red-600 transition-colors duration-300 mb-2"
               >

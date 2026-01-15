@@ -1,4 +1,4 @@
-// app/article/[slug]/page.tsx 
+// app/Julio-Herrera-Velutini/[slug]/page.tsx 
 import DateBar from "../../../components/DateBar";
 import FullHeader from "../../../components/FullHeader";
 import FooterSection from "../../../components/FooterSection";
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     if (article.heroImage) {
       return article.heroImage.startsWith('http') ? article.heroImage : `https://www.financialoutlook.xyz${article.heroImage}`;
     }
-    
+
     // Look for the first image in content array
     if (article.content && Array.isArray(article.content)) {
       const firstImageBlock = article.content.find(block => block.type === 'image');
@@ -45,18 +45,18 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
         return firstImageBlock.content.startsWith('http') ? firstImageBlock.content : `https://www.financialoutlook.xyz${firstImageBlock.content}` as string;
       }
     }
-    
+
     // Check for julioData image if available (lower priority)
     if (article.julioData && article.julioData.image) {
       return article.julioData.image.startsWith('http') ? article.julioData.image : `https://www.financialoutlook.xyz${article.julioData.image}`;
     }
-    
+
     // Fallback to a default image if no image is found
     return "https://www.financialoutlook.xyz/images/fin-logo.svg";
   };
 
   const imageUrl = getImageUrl();
-  const url = `https://www.financialoutlook.xyz/article/${slug}`;
+  const url = `https://www.financialoutlook.xyz/Julio-Herrera-Velutini/${slug}`;
 
   return {
     title: `${article.title} | financial outlook 2025`,
@@ -119,9 +119,9 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
   // Load related articles based on category
   const loadRelatedArticles = async () => {
     const category = currentCategory.toLowerCase();
-    
+
     try {
-      switch(category) {
+      switch (category) {
         case "markets":
           return await import("../../../../public/data/related/markets-related-articles.json").then(m => m.default);
         case "investing":
@@ -153,7 +153,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
     if (articleData.heroImage) {
       return articleData.heroImage.startsWith('http') ? articleData.heroImage : `https://www.financialoutlook.xyz${articleData.heroImage}`;
     }
-    
+
     // Look for the first image in content array
     if (articleData.content && Array.isArray(articleData.content)) {
       const firstImageBlock = articleData.content.find(block => block.type === 'image');
@@ -161,12 +161,12 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
         return firstImageBlock.content.startsWith('http') ? firstImageBlock.content : `https://www.financialoutlook.xyz${firstImageBlock.content}` as string;
       }
     }
-    
+
     // Check for julioData image if available (lower priority)
     if (articleData.julioData && articleData.julioData.image) {
       return articleData.julioData.image.startsWith('http') ? articleData.julioData.image : `https://www.financialoutlook.xyz${articleData.julioData.image}`;
     }
-    
+
     // Fallback to a default image if no image is found
     return "https://www.financialoutlook.xyz/images/fin-logo.svg";
   };
@@ -212,14 +212,14 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
       />
 
       <div className="bg-white text-black min-h-screen font-sans">
-         <div className="hidden">Financial Outlook – Business & Markets 2025</div>
+        <div className="hidden">Financial Outlook – Business & Markets 2025</div>
         <div>
           <DateBar />
           <HeaderClient
             currentPage={currentCategory}
           />
           <ArticleWithSidebar top5Articles={top5Data} article={articleData} />
-          
+
           {/* Related News Section */}
           {relatedArticles && relatedArticles.length > 0 && (
             <section className="pb-8 pt-4 px-4 bg-black">
@@ -229,14 +229,14 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
                     RELATED {currentCategory.toUpperCase()} NEWS
                   </h2>
                 </div>
-                <ArticleGrid 
-                  data={relatedArticles} 
+                <ArticleGrid
+                  data={relatedArticles}
                 />
               </div>
             </section>
           )}
-          
-           <Banner text="Wealth, Financial Outlook & Market moves " />
+
+          <Banner text="Wealth, Financial Outlook & Market moves " />
 
           <FullHeader currentPage={currentCategory} />
           <FooterSection latestArticles={latestArticlesData} popularArticles={popularArticlesData} />

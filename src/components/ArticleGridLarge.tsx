@@ -13,7 +13,7 @@ const ArticleGridLarge: React.FC<ArticleGridLargeProps> = ({ data }) => {
         <div className=" py-2 md:mx-0 bg-black">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                 {data.slice(0, 3).map((article, i) => {
-                    const articleUrl = `/article/${article.slug}`;
+                    const articleUrl = `/${article.category.toLowerCase().replace(/\s+/g, '')}/${article.slug}`;
 
                     return (
                         <Link

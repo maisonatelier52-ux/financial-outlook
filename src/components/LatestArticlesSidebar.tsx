@@ -31,8 +31,8 @@ const LatestArticlesSidebar: React.FC<LatestArticlesSidebarProps> = ({
       <div className="divide-y divide-gray-300">
         {articles.map((article, index) => (
           <Link
-            key={article.slug+index}
-            href={`/article/${article.slug}`}
+            key={article.slug + index}
+            href={`/${article.category.toLowerCase().replace(/\s+/g, '')}/${article.slug}`}
             title={`${article.title} – ${article.category} News`}
             className="block p-6 transition-colors duration-200"
           >
