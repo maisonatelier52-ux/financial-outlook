@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Financial Outlook",
     images: [
       {
-        url: "/images/fin-logo.svg",
+        url: "/images/fin-favIcon2.svg",
         width: 1200,
         height: 630,
         alt: "Financial Outlook – Business, Wealth & Markets 2025",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Financial Outlook – Business, Wealth & Markets News 2025",
     description: "Financial Outlook delivers trusted business and wealth news: stock markets, crypto, billionaire moves, investing strategies, real estate, fintech, and global economy – updated daily 2025.",
-    images: ["/images/fin-logo.svg"],
+    images: ["/images/fin-favIcon2.svg"],
     creator: "@FinancialOutlook",
   },
 
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
 
   icons: { 
-    icon: "/images/fin-favIcon3.ico"
+    icon: "/images/fin-favIcon2.ico"
   },
 
   alternates: {
