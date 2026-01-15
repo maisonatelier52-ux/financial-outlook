@@ -83,6 +83,7 @@ const categoryConfig = {
 type CategoryKey = keyof typeof categoryConfig;
 
 // PERFECT SEO METADATA
+// PERFECT SEO METADATA
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const { category } = await params;
   const key = category.toLowerCase() as CategoryKey;
@@ -96,6 +97,21 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 
   const url = `https://www.financialoutlook.xyz/${key}`;
+  const folder = config.folder ? `${config.folder}/` : "";
+
+  // Fetch main articles to get a dynamic image
+  let firstArticleImage = "https://www.financialoutlook.xyz/images/fin-logo.svg";
+
+  try {
+    const mainArticles = await import(`../../../public/data/${folder}${key}-main-articles.json`).then(m => m.default);
+    if (mainArticles && mainArticles.length > 0 && mainArticles[0].image) {
+      firstArticleImage = mainArticles[0].image.startsWith('http')
+        ? mainArticles[0].image
+        : `https://www.financialoutlook.xyz${mainArticles[0].image}`;
+    }
+  } catch (e) {
+    // Fallback to default image if fetch fails
+  }
 
   return {
     title: `${config.title} | financial outlook 2025`,
@@ -109,11 +125,20 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       siteName: "financialoutlook",
       type: "website",
       locale: "en_US",
+      images: [
+        {
+          url: firstArticleImage,
+          width: 1200,
+          height: 630,
+          alt: `${config.title} news`,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: `${config.title} News 2025`,
       description: config.description,
+      images: [firstArticleImage],
     },
     robots: { index: true, follow: true },
   };
