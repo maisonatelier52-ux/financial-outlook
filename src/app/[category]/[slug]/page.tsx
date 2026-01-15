@@ -39,6 +39,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
             return article.heroImage.startsWith('http') ? article.heroImage : `https://www.financialoutlook.xyz${article.heroImage}`;
         }
 
+        if (article.image) {
+            return article.image.startsWith('http') ? article.image : `https://www.financialoutlook.xyz${article.image}`;
+        }
+
         // Look for the first image in content array
         if (article.content && Array.isArray(article.content)) {
             const firstImageBlock = article.content.find(block => block.type === 'image');
@@ -53,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
         }
 
         // Fallback to a default image if no image is found
-        return "https://www.financialoutlook.xyz/images/fin-logo.svg";
+        return "https://www.financialoutlook.xyz/images/fin-favIcon2.svg";
     };
 
     const imageUrl = getImageUrl();
@@ -161,9 +165,14 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
     const relatedArticles = await loadRelatedArticles();
 
     // Get image for JSON-LD schema - use heroImage if available, otherwise extract first image from content
+    // Get image for JSON-LD schema - use heroImage if available, otherwise extract first image from content
     const getSchemaImageUrl = (): string => {
         if (articleData.heroImage) {
             return articleData.heroImage.startsWith('http') ? articleData.heroImage : `https://www.financialoutlook.xyz${articleData.heroImage}`;
+        }
+
+        if (articleData.image) {
+            return articleData.image.startsWith('http') ? articleData.image : `https://www.financialoutlook.xyz${articleData.image}`;
         }
 
         // Look for the first image in content array
@@ -180,7 +189,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
         }
 
         // Fallback to a default image if no image is found
-        return "https://www.financialoutlook.xyz/images/fin-logo.svg";
+        return "https://www.financialoutlook.xyz/images/fin-favIcon2.svg";
     };
 
     const schemaImageUrl = getSchemaImageUrl();
@@ -209,8 +218,9 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
                             name: "financialoutlook",
                             logo: {
                                 "@type": "ImageObject",
-                                url: "https://www.financialoutlook.xyz/images/fin-logo.svg",
+                                url: "https://www.financialoutlook.xyz/images/fin-favIcon2.svg",
                             },
+
                         },
                         mainEntityOfPage: {
                             "@type": "WebPage",

@@ -37,7 +37,7 @@ const Top5Sidebar: React.FC<Top5SidebarProps> = ({ articles, isSticky, julioArti
     <div className="lg:col-span-2 space-y-4 sidebar-sticky">
       <div className={`h-[555px] bg-black z-10 transition-all duration-300 ${isSticky ? 'sticky top-8' : ''}`}>
         <div className="bg-red-600 text-2xl text-white p-4 uppercase font-bold tracking-widest text-center border-black">
-          TOP 5 THIS WEEK
+          TOP .5 THIS WEEK
         </div>
         <div className="p-3 space-y-3 rounded-b overflow-hidden bg-black">
           {articles.slice(0, 5).map((article, index) => {

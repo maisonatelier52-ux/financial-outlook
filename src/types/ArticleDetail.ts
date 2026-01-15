@@ -9,6 +9,7 @@ export interface ArticleData {
   category: string;
   shortdescription?: string;
   heroImage?: string;
+  image?: string;
   author: string;
   authorImage: string;
   date: string;
