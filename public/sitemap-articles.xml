@@ -55,12 +55,6 @@
     <priority>0.8</priority>
   </url>
 <url>
-    <loc>https://www.financialoutlook.xyz/economy/ecb-rate-cut-december-2024/</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-<url>
     <loc>https://www.financialoutlook.xyz/billionaires/elon-musk-net-worth-500-billion-2025/</loc>
     <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -312,4 +306,5 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url></urlset>
+
 
