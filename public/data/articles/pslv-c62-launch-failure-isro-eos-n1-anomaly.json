@@ -1,0 +1,76 @@
+{
+    "title": "ISRO Investigates PSLV-C62 Anomaly After EOS-N1 Satellite Loss",
+    "category": "TECH & FINANCE",
+    "shortdescription": "ISRO hit a snag in its PSLV-C62 mission late in flight, resulting in the loss of the EOS-N1 satellite.",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "January 12, 2026",
+    "readingTime": "10 min read",
+    "content": [
+        {
+            "type": "image",
+            "content": "/images/PSLV-C62-Anomaly.webp"
+        },
+        {
+            "type": "heading",
+            "content": "The PSLV-C62 Mission Anomaly"
+        },
+        {
+            "type": "paragraph",
+            "content": "The PSLV-C62 rocket carrying 16 payloads of equipment and experiments, including an Earth observation satellite, deviated from its trajectory following liftoff on Monday, representing a further setback for the Indian Space Research Organization’s mainstay launch vehicle. \"Today we have attempted the PSLV C62 / EOS - N1 Mission.\" The PSLV vehicle is a four-stage system comprising two solid stages and two liquid stages, stated ISRO chief V. Narayanan. It marked a second setback for the Polar Satellite Launch Vehicle within approximately eight months, adversely affecting its reputation for dependability, which has historically boasted a success rate exceeding 90% across approximately 60 previous missions. On May 18, 2025, during ISRO's attempt to launch the EOS-09 satellite aboard the PSLV-C61 mission, the launch was not successfully completed. It was additionally caused by an anomaly in the third stage of the rocket."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The performance of the vehicle close to the end of third stage was as expected. Close to the end of third stage we are seeing more disturbance in the vehicle. Subsequently, there is a deviation in the vehicle observed in the flight path. We are analyzing the data and will come shall come back at the earliest,\" he added."
+        },
+        {
+            "type": "heading",
+            "content": "Why This News is Important"
+        },
+        {
+            "type": "paragraph",
+            "content": "This failure is significant because the PSLV has been one of ISRO's most dependable rockets for a long time, and it's odd to see it fail twice in such a short amount of time. It makes sense that customers, especially startups and international partners are worried as they rely on the vehicle to safely put their satellites in orbit. Losing EOS-N1 also means that important Earth-observation capabilities are missing and that the government will have to spend more money to rebuild the satellite. Delays and uncertainty could also slow India's efforts to grow its commercial space business."
+        },
+        {
+            "type": "heading",
+            "content": "What Happened?"
+        },
+        {
+            "type": "paragraph",
+            "content": "The PSLV-C62 launched from the Satish Dhawan Space Centre on Sriharikota Island at 10:18 a.m. (04:48 GMT), carrying the EOS-N1 observation satellite along with 15 additional payloads developed by entrepreneurs and academic institutions both within India and internationally. The ISRO mission control stated that the rocket operated routinely for the majority of the flight prior to an unforeseen disturbance and deviation from its trajectory. \"The PSLV-C62 mission encountered an anomaly during the end of the PS3 stage. A detailed analysis has been initiated,\" ISRO stated in a formal announcement, without providing additional details regarding the nature of the issue or the final location of the rocket."
+        },
+        {
+            "type": "paragraph",
+            "content": "The PSLV has played a pivotal role in India's space program, facilitating missions such as Chandrayaan-1 and the Aditya-L1 solar observatory. It also supports India's initiative to liberalize space manufacturing for private sector participation. ISRO launched EOS-N1, together with 14 co-passenger satellites and a capsule into a re-entry trajectory during a marathon mission, signifying the space agency's inaugural mission of 2026. The flight occurs several months after a rare setback, when PSLV-C61, launched on May 18, 2025, was unable to deploy the EOS-09 Earth observation satellite into orbit due to an anomaly in the third stage. The 44.4-meter-tall Polar Satellite Launch Vehicle (PSLV-C62) was launched from the First Launch Pad at the Satish Dhawan Space Centre, Sriharikota, on a commercial mission for NewSpace India Limited (NSIL)."
+        },
+        {
+            "type": "paragraph",
+            "content": "The launch was the 64th flight of the PSLV and the fifth mission that used the PSLV-DL variant. The mission sent up a wide range of technological demonstration satellites from India and other countries. These satellites were used for things like onboard AI processing, store-and-forward communication systems, IoT services, measuring radiation, and collecting agricultural data. The main payload is the EOS-N1 (Anvesha), a hyperspectral Earth observation satellite designed for advanced surveillance and strategic analysis. The EOS-N1 Earth observation satellite is said to be designed for strategic purposes. NewSpace India Limited (NSIL) is doing it for business."
+        },
+        {
+            "type": "paragraph",
+            "content": "According to an official release from ISRO, EOS-N1 and 14 other satellites will be sent into a Sun-synchronous orbit, and the KID Capsule will be sent on a path to re-enter the atmosphere. It said that when the EOS-N1 and fourteen satellites were injected, the PS4 stage would be turned back on to slow down and go back into a re-entry path. Then, the KID Capsule will separate. The statement went on to say, “Both PS4 stage and KID capsule will re-enter Earth’s atmosphere and the impact will be in the South Pacific Ocean.” One of the most important secondary payloads was AayulSAT, which was made by the Bengaluru-based startup OrbitAID Aerospace. It is India's first satellite refuelling demonstrator in orbit. The goal of the mission is to test technology for transferring fuel and servicing satellites in low Earth orbit. This is seen as necessary for extending the lives of satellites and enabling long-term space operations."
+        },
+        {
+            "type": "paragraph",
+            "content": "Another significant payload, the KID re-entry capsule, a European technology demonstrator developed in collaboration with a Spanish startup, was anticipated to detach from the PSLV's fourth stage and was intended to come down in the South Pacific Ocean, thereby validating controlled atmospheric re-entry technologies. The flight also comprised a combination of CubeSats and small satellites from institutions and startups, including missions from Dhruva Space (CGUSAT) and international partners, advancing research and commercial applications in communication, IoT, and Earth observation. The 2026 PSLV-C62 mission proceeds after ISRO's comprehensive evaluation of the PSLV-C61 failure, one of only a few setbacks in the three-decade operational history of the PSLV. ISRO established a failure analysis committee following the May 2025 mission and instituted corrective measures prior to redeploying the launcher for flight."
+        },
+        {
+            "type": "heading",
+            "content": "Who Bears the Financial Impact?"
+        },
+        {
+            "type": "paragraph",
+            "content": "Different groups are in charge of the money lost on the satellites that were lost in the failed PSLV-C62 mission, depending on the type of satellite. There is no one company in the aerospace industry that has to pay for a mission that fails. Instead, the costs are covered by a mix of government money and insurance claims. The premiums for commercial insurance for military or strategic satellites are usually too high for governments to buy. In this case, the State will have to pay for the money that the EOS-N1 satellite, which was made by DRDO, lost directly. DRDO will probably have to get a new budget approval in order to build a new satellite. Private businesses, such as Indian companies and international groups, would have bought insurance plans that pay out a lump sum if there is a \"total loss\" during the launch period. If a certain group didn't get insurance, they are responsible for paying for all the damage themselves. People think that NewSpace India Limited (NSIL), ISRO's business arm, has made deals with private clients. NSIL usually doesn't pay for the satellite itself, but the contract may include a guarantee to fly the satellite again or a refund of the launch fee if the mission fails. This phrase makes it clear that ISRO or NSRIL will not be responsible for the value of the customer's satellite unless there is clear evidence of gross negligence, which is rare. In the business world, a waiver of liability is common. This means that the launcher and the satellite owner agree not to sue each other for damages."
+        },
+        {
+            "type": "heading",
+            "content": "What to Watch Next"
+        },
+        {
+            "type": "paragraph",
+            "content": "The most important thing to do right now is to figure out what went wrong with ISRO's probe and whether or not this is part of a bigger problem with the rocket. People will be paying close attention to how quickly ISRO can fix the problem and get the PSLV ready to fly again. Customers will be paying attention to any changes or delays in launches that have an effect on their satellite missions."
+        }
+    ]
+}

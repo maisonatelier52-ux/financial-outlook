@@ -2,78 +2,204 @@
   {
     "title": "MARKETS",
     "items": [
-      { "title": "NVIDIA Partners with Samsung for $50B Chip Manufacturing Deal – Stock Surges to All-Time High", "href": "/article/nvidia-stock-2025-boom-continues" },
-      { "title": "Federal Reserve Cuts Rates 0.75% in December – Biggest Single Cut Since 2008 Financial Crisis", "href": "/article/federal-reserve-rate-cut-december-2025" },
-      { "title": "Tesla Unveils Model 3 Redesign and $25K Entry Model – Stock Jumps 12% on Production Timeline", "href": "/article/tesla-q4-earnings-beat-2025" },
-      { "title": "Amazon AWS Announces $100B AI Infrastructure Investment – Cloud Revenue Exceeds $30B Quarterly", "href": "/article/amazon-prime-day-2025-record-sales" },
-      { "title": "Gold Hits $2,800/oz All-Time High – Safe Haven Demand Surges", "href": "/article/gold-price-all-time-high-2025" },
-      { "title": "Apple Stock Downgraded to 'Sell' After iPhone Sales Miss Q4 Estimates", "href": "/article/apple-stock-downgrade-2025-iphone-sales" }
+      {
+        "title": "NVIDIA Partners with Samsung for $50B Chip Manufacturing Deal – Stock Surges to All-Time High",
+        "href": "/article/nvidia-stock-2025-boom-continues"
+      },
+      {
+        "title": "Federal Reserve Cuts Rates 0.75% in December – Biggest Single Cut Since 2008 Financial Crisis",
+        "href": "/article/federal-reserve-rate-cut-december-2025"
+      },
+      {
+        "title": "Tesla Unveils Model 3 Redesign and $25K Entry Model – Stock Jumps 12% on Production Timeline",
+        "href": "/article/tesla-q4-earnings-beat-2025"
+      },
+      {
+        "title": "Amazon AWS Announces $100B AI Infrastructure Investment – Cloud Revenue Exceeds $30B Quarterly",
+        "href": "/article/amazon-prime-day-2025-record-sales"
+      },
+      {
+        "title": "Gold Hits $2,800/oz All-Time High – Safe Haven Demand Surges",
+        "href": "/article/gold-price-all-time-high-2025"
+      },
+      {
+        "title": "Apple Stock Downgraded to 'Sell' After iPhone Sales Miss Q4 Estimates",
+        "href": "/article/apple-stock-downgrade-2025-iphone-sales"
+      }
     ]
   },
   {
     "title": "CRYPTO",
     "items": [
-      { "title": "Ethereum 2.0 Final Upgrade Complete – Network Processes 100,000 Transactions Per Second", "href": "/article/ethereum-2-0-final-upgrade-2025" },
-      { "title": "Tether Launches $1 Billion Bitcoin Mining Operation – Largest Corporate Mining Venture Ever", "href": "/article/tether-bitcoin-mining-2025" },
-      { "title": "Bitcoin Lightning Network Hits 1 Million Nodes – Payment Rails Now Rival Visa", "href": "/article/bitcoin-lightning-million-nodes-2025" },
-      { "title": "BlackRock Bitcoin ETF Reaches $100 Billion AUM – Largest ETF Launch in History", "href": "/article/blackrock-bitcoin-etf-100-billion-2025" },
-      { "title": "Ripple vs SEC Case Officially Dismissed – XRP Surges 40% Overnight", "href": "/article/ripple-xrp-sec-case-dismissed-2025" },
-      { "title": "Coinbase Launches Decentralized Exchange on Base – Competes Directly with Uniswap", "href": "/article/coinbase-dex-launch-2025" }
+      {
+        "title": "Ethereum 2.0 Final Upgrade Complete – Network Processes 100,000 Transactions Per Second",
+        "href": "/article/ethereum-2-0-final-upgrade-2025"
+      },
+      {
+        "title": "Tether Launches $1 Billion Bitcoin Mining Operation – Largest Corporate Mining Venture Ever",
+        "href": "/article/tether-bitcoin-mining-2025"
+      },
+      {
+        "title": "Bitcoin Lightning Network Hits 1 Million Nodes – Payment Rails Now Rival Visa",
+        "href": "/article/bitcoin-lightning-million-nodes-2025"
+      },
+      {
+        "title": "BlackRock Bitcoin ETF Reaches $100 Billion AUM – Largest ETF Launch in History",
+        "href": "/article/blackrock-bitcoin-etf-100-billion-2025"
+      },
+      {
+        "title": "Ripple vs SEC Case Officially Dismissed – XRP Surges 40% Overnight",
+        "href": "/article/ripple-xrp-sec-case-dismissed-2025"
+      },
+      {
+        "title": "Coinbase Launches Decentralized Exchange on Base – Competes Directly with Uniswap",
+        "href": "/article/coinbase-dex-launch-2025"
+      }
     ]
   },
   {
     "title": "BILLIONAIRES",
     "items": [
-      { "title": "Elon Musk Becomes First Person Worth $500 Billion in 2025", "href": "/article/elon-musk-net-worth-500-billion-2025" },
-      { "title": "Jeff Bezos Sells $10 Billion Amazon Stock in One Week – Biggest Insider Sale Ever", "href": "/article/jeff-bezos-sells-10-billion-amazon-stock-2025" },
-      { "title": "Bernard Arnault Becomes First European Worth $300 Billion", "href": "/article/bernard-arnault-lvmh-300-billion-2025" },
-      { "title": "Apple Vision Pro 2 Launches at $2,499 – Pre-Orders Surpass 5 Million Units in First Week", "href": "/article/apple-vision-pro-2-launch-2025" },
-      { "title": "NVIDIA CEO Jensen Huang Joins $200 Billion Club After AI Chip Boom", "href": "/article/jensen-huang-nvidia-200-billion-net-worth" },
-      { "title": "Mukesh Ambani Becomes First Asian Worth $200 Billion", "href": "/article/mukesh-ambani-200-billion-net-worth-2025" }
+      {
+        "title": "Elon Musk Becomes First Person Worth $500 Billion in 2025",
+        "href": "/article/elon-musk-net-worth-500-billion-2025"
+      },
+      {
+        "title": "Jeff Bezos Sells $10 Billion Amazon Stock in One Week – Biggest Insider Sale Ever",
+        "href": "/article/jeff-bezos-sells-10-billion-amazon-stock-2025"
+      },
+      {
+        "title": "Bernard Arnault Becomes First European Worth $300 Billion",
+        "href": "/article/bernard-arnault-lvmh-300-billion-2025"
+      },
+      {
+        "title": "Apple Vision Pro 2 Launches at $2,499 – Pre-Orders Surpass 5 Million Units in First Week",
+        "href": "/article/apple-vision-pro-2-launch-2025"
+      },
+      {
+        "title": "NVIDIA CEO Jensen Huang Joins $200 Billion Club After AI Chip Boom",
+        "href": "/article/jensen-huang-nvidia-200-billion-net-worth"
+      },
+      {
+        "title": "Mukesh Ambani Becomes First Asian Worth $200 Billion",
+        "href": "/article/mukesh-ambani-200-billion-net-worth-2025"
+      }
     ]
   },
   {
     "title": "INVESTING",
     "items": [
-      { "title": "Berkshire Hathaway Cash Pile Hits $350 Billion – Buffett's Biggest War Chest Ever", "href": "/article/berkshire-hathaway-cash-record-350-billion-2025" },
-      { "title": "Millennials Face $1.2 Trillion Retirement Savings Gap – Average 401(k) Balance Below $50K", "href": "/article/retirement-savings-crisis-2025-millennials" },
-      { "title": "Robo-Advisors Overtake Traditional Financial Advisors – Fees Drop 70% Since 2020", "href": "/article/investment-advisor-fees-revolution-2025" },
-      { "title": "Meme Stock Mania Returns in 2025 – Retail Traders Pile $50B into GameStop, AMC, and Beyond", "href": "/article/meme-stock-bubble-2025-retail-traders" },
-      { "title": "REITs Crash 35% in 2025: Is It Time to Buy the Dip?", "href": "/article/real-estate-investment-trusts-reits-2025-crash" },
-      { "title": "Gold ETF vs Physical Gold: Which Wins in 2025? (Shocking Results)", "href": "/article/gold-etf-vs-physical-gold-2025" }
+      {
+        "title": "Berkshire Hathaway Cash Pile Hits $350 Billion – Buffett's Biggest War Chest Ever",
+        "href": "/article/berkshire-hathaway-cash-record-350-billion-2025"
+      },
+      {
+        "title": "Millennials Face $1.2 Trillion Retirement Savings Gap – Average 401(k) Balance Below $50K",
+        "href": "/article/retirement-savings-crisis-2025-millennials"
+      },
+      {
+        "title": "Robo-Advisors Overtake Traditional Financial Advisors – Fees Drop 70% Since 2020",
+        "href": "/article/investment-advisor-fees-revolution-2025"
+      },
+      {
+        "title": "Meme Stock Mania Returns in 2025 – Retail Traders Pile $50B into GameStop, AMC, and Beyond",
+        "href": "/article/meme-stock-bubble-2025-retail-traders"
+      },
+      {
+        "title": "REITs Crash 35% in 2025: Is It Time to Buy the Dip?",
+        "href": "/article/real-estate-investment-trusts-reits-2025-crash"
+      },
+      {
+        "title": "Gold ETF vs Physical Gold: Which Wins in 2025? (Shocking Results)",
+        "href": "/article/gold-etf-vs-physical-gold-2025"
+      }
     ]
   },
   {
     "title": "REAL ESTATE",
     "items": [
-      { "title": "London Prime Property Market Recovers 35% in 2025 – Foreign Investors Return", "href": "/article/london-prime-property-market-recovery-2025" },
-      { "title": "Canada Real Estate Market Correction Deepens – Toronto and Vancouver Prices Down 25%", "href": "/article/canada-real-estate-market-correction-2025" },
-      { "title": "Office Real Estate Crisis Deepens in 2025 – $2 Trillion in Value Destroyed by Remote Work", "href": "/article/office-real-estate-crisis-2025-work-from-home" },
-      { "title": "Affordable Housing Crisis Worsens in 2025 – Average Rent Reaches $2,500 Nationwide", "href": "/article/affordable-housing-crisis-2025-us-cities" },
-      { "title": "Data Centers Are 2025's Hottest Real Estate – $1M Per Acre in Virginia", "href": "/article/data-center-real-estate-boom-2025" },
-      { "title": "Singapore Slaps 60% Property Tax on Foreign Buyers – Prices Still Rising", "href": "/article/singapore-property-tax-2025-wealth-tax" }
+      {
+        "title": "London Prime Property Market Recovers 35% in 2025 – Foreign Investors Return",
+        "href": "/article/london-prime-property-market-recovery-2025"
+      },
+      {
+        "title": "Canada Real Estate Market Correction Deepens – Toronto and Vancouver Prices Down 25%",
+        "href": "/article/canada-real-estate-market-correction-2025"
+      },
+      {
+        "title": "Office Real Estate Crisis Deepens in 2025 – $2 Trillion in Value Destroyed by Remote Work",
+        "href": "/article/office-real-estate-crisis-2025-work-from-home"
+      },
+      {
+        "title": "Affordable Housing Crisis Worsens in 2025 – Average Rent Reaches $2,500 Nationwide",
+        "href": "/article/affordable-housing-crisis-2025-us-cities"
+      },
+      {
+        "title": "Data Centers Are 2025's Hottest Real Estate – $1M Per Acre in Virginia",
+        "href": "/article/data-center-real-estate-boom-2025"
+      },
+      {
+        "title": "Singapore Slaps 60% Property Tax on Foreign Buyers – Prices Still Rising",
+        "href": "/article/singapore-property-tax-2025-wealth-tax"
+      }
     ]
   },
   {
     "title": "TECHNOLOGY",
     "items": [
-      { "title": "Amazon Alexa AI Surpasses 1 Billion Active Users – Becomes World's Most Used AI Assistant", "href": "/article/amazon-ai-assistant-dominance-2025" },
-      { "title": "Robinhood Crypto Wallet Surpasses 1 Billion Users – Bigger Than PayPal", "href": "/article/robinhood-crypto-wallet-1-billion-users-2025" },
-      { "title": "Apple Shuts Down Apple Pay Later After $8 Billion Losses – Affirm Stock Up 60%", "href": "/article/apple-pay-later-shut-down-2025" },
-      { "title": "Revolut Hits $100 Billion Valuation – Europe's First Tech Centicorn", "href": "/article/revolut-100-billion-valuation-2025" },
-      { "title": "Google Achieves Quantum Supremacy 2.0 – Solves Problem in Seconds That Would Take Classical Computer 47,000 Years", "href": "/article/google-quantum-computer-breakthrough-2025" },
-      { "title": "Plaid Files for $50 Billion IPO – The 'Pipe' of Banking Goes Public", "href": "/article/plaid-50-billion-ipo-2025" }
+      {
+        "title": "Amazon Alexa AI Surpasses 1 Billion Active Users – Becomes World's Most Used AI Assistant",
+        "href": "/article/amazon-ai-assistant-dominance-2025"
+      },
+      {
+        "title": "Robinhood Crypto Wallet Surpasses 1 Billion Users – Bigger Than PayPal",
+        "href": "/article/robinhood-crypto-wallet-1-billion-users-2025"
+      },
+      {
+        "title": "Apple Shuts Down Apple Pay Later After $8 Billion Losses – Affirm Stock Up 60%",
+        "href": "/article/apple-pay-later-shut-down-2025"
+      },
+      {
+        "title": "Revolut Hits $100 Billion Valuation – Europe's First Tech Centicorn",
+        "href": "/article/revolut-100-billion-valuation-2025"
+      },
+      {
+        "title": "Google Achieves Quantum Supremacy 2.0 – Solves Problem in Seconds That Would Take Classical Computer 47,000 Years",
+        "href": "/article/google-quantum-computer-breakthrough-2025"
+      },
+      {
+        "title": "ISRO Investigates PSLV-C62 Anomaly After EOS-N1 Satellite Loss",
+        "href": "/techfinance/pslv-c62-launch-failure-isro-eos-n1-anomaly"
+      }
     ]
   },
   {
     "title": "ECONOMY",
     "items": [
-      { "title": "Federal Reserve Cuts Rates 25 Basis Points But Signals Fewer Cuts in 2025 – Markets Tumble", "href": "/article/fed-rate-cut-hawkish-december-2024" },
-      { "title": "China Unveils Aggressive Stimulus Package – Shifts to 'Moderately Loose' Monetary Policy", "href": "/article/china-economic-stimulus-december-2024" },
-      { "title": "European Central Bank Cuts Rates for Fourth Time – Euro Weakens as Recession Fears Grow", "href": "/article/ecb-rate-cut-december-2024" },
-      { "title": "US Core Inflation Rises to 3.3% in November – Services Inflation Remains Stubborn", "href": "/article/us-inflation-sticky-december-2024" },
-      { "title": "US Economy Defies Expectations with 4.3% Growth in Q3 2025", "href": "/article/us-economy-growth-q3-2025" },
-      { "title": "EU Signs Historic $500 Billion Green Energy Deal – Commits to 100% Renewable by 2035", "href": "/article/european-union-green-energy-deal-2025" }
+      {
+        "title": "Federal Reserve Cuts Rates 25 Basis Points But Signals Fewer Cuts in 2025 – Markets Tumble",
+        "href": "/article/fed-rate-cut-hawkish-december-2024"
+      },
+      {
+        "title": "China Unveils Aggressive Stimulus Package – Shifts to 'Moderately Loose' Monetary Policy",
+        "href": "/article/china-economic-stimulus-december-2024"
+      },
+      {
+        "title": "European Central Bank Cuts Rates for Fourth Time – Euro Weakens as Recession Fears Grow",
+        "href": "/article/ecb-rate-cut-december-2024"
+      },
+      {
+        "title": "US Core Inflation Rises to 3.3% in November – Services Inflation Remains Stubborn",
+        "href": "/article/us-inflation-sticky-december-2024"
+      },
+      {
+        "title": "US Economy Defies Expectations with 4.3% Growth in Q3 2025",
+        "href": "/article/us-economy-growth-q3-2025"
+      },
+      {
+        "title": "EU Signs Historic $500 Billion Green Energy Deal – Commits to 100% Renewable by 2035",
+        "href": "/article/european-union-green-energy-deal-2025"
+      }
     ]
   }
 ]

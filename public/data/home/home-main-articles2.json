@@ -1,4 +1,5 @@
-[{
+[
+  {
     "slug": "sp-500-new-record-high-2025",
     "title": "S&P 500 Hits New All-Time High: Tech Stocks Drive 18% YTD Gains",
     "category": "MARKETS",
@@ -10,7 +11,7 @@
     "role": "Stock Market Expert",
     "date": "November 16, 2025"
   },
-   {
+  {
     "slug": "us-inflation-sticky-december-2024",
     "title": "US Core Inflation Rises to 3.3% in November – Services Inflation Remains Stubborn",
     "category": "ECONOMY",
@@ -35,19 +36,19 @@
     "date": "November 18, 2025"
   },
   {
-    "slug": "plaid-50-billion-ipo-2025",
-    "title": "Plaid Files for $50 Billion IPO – The 'Pipe' of Banking Goes Public",
+    "slug": "pslv-c62-launch-failure-isro-eos-n1-anomaly",
+    "title": "ISRO Investigates PSLV-C62 Anomaly After EOS-N1 Satellite Loss",
     "category": "TECH & FINANCE",
-    "shortdescription": "Company that connects your bank to Venmo, CashApp, Robinhood finally IPOs.",
-    "description": "Plaid powers 80% of U.S. fintech apps — valuation surpasses SoFi, Chime, and Robinhood combined.",
-    "image": "/images/Plaid $50 Billion IPO 2025.webp",
+    "shortdescription": "ISRO hit a snag in its PSLV-C62 mission late in flight, resulting in the loss of the EOS-N1 satellite.",
+    "description": "The mission sent up 16 payloads including the strategic EOS-N1 satellite, all of which were lost after a third-stage anomaly.",
+    "image": "/images/PSLV-C62-Anomaly.webp",
     "author": "Gwen John",
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
-    "date": "November 19, 2025"
+    "date": "January 12, 2026"
   },
   {
-     "slug": "china-economy-slowdown-2025",
+    "slug": "china-economy-slowdown-2025",
     "title": "China's Growth Slows to Below 3% in 2025, Missing Official Targets",
     "category": "ECONOMY",
     "shortdescription": "Industrial profits plunge and deflationary pressures persist as property crisis drags on.",
@@ -59,7 +60,7 @@
     "date": "December 27, 2025"
   },
   {
-   "slug": "southern-europe-economy-boom-2025",
+    "slug": "southern-europe-economy-boom-2025",
     "title": "Italy and Spain Outperform: Borrowing Costs Hit 16-Year Lows",
     "category": "ECONOMY",
     "shortdescription": "Southern European economies shake off 'periphery' tag with strong growth.",
@@ -69,7 +70,7 @@
     "authorImage": "/images/Author7.webp",
     "role": "Chief Economist",
     "date": "December 27, 2025"
-  }, 
+  },
   {
     "slug": "wise-10-billion-profit-2025",
     "title": "Wise (TransferWise) Reports $10 Billion Profit – Bigger Than JPMorgan",
@@ -81,7 +82,8 @@
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
     "date": "November 18, 2025"
-  },{
+  },
+  {
     "slug": "oil-prices-crash-2025-opec-cuts",
     "title": "Oil Prices Crash 12% After OPEC+ Announces Surprise Production Increase",
     "category": "MARKETS",
