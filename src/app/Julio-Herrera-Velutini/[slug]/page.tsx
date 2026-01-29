@@ -97,6 +97,9 @@ export async function generateStaticParams() {
     .map((f: string) => ({ slug: f.replace(".json", "") }));
 }
 
+// Disable dynamic params for static export
+export const dynamicParams = false;
+
 export default async function ArticlePage({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
 

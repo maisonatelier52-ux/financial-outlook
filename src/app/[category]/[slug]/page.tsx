@@ -113,6 +113,9 @@ export async function generateStaticParams() {
     return params;
 }
 
+// Disable dynamic params for static export
+export const dynamicParams = false;
+
 export default async function ArticlePage({ params }: { params: Promise<Params> }) {
     const { category, slug } = await params;
 

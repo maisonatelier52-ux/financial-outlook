@@ -144,6 +144,9 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   };
 }
 
+// Disable dynamic params for static export
+export const dynamicParams = false;
+
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const { category } = await params;
   const key = category.toLowerCase() as CategoryKey;
