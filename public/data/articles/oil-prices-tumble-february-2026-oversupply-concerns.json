@@ -1,0 +1,32 @@
+{
+    "title": "Oil Prices Tumble 5% as Global Oversupply Concerns Eclipse Geopolitical Tensions",
+    "category": "MARKETS",
+    "shortdescription": "Brent crude retreats to $70 as US inventories swell and recession fears resurface.",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "February 2, 2026",
+    "readingTime": "9 min read",
+    "content": [
+        {
+            "type": "image",
+            "content": "/images/download (2).webp"
+        },
+        {
+            "type": "heading",
+            "content": "A Sharp Reversal in the Oil Market"
+        },
+        {
+            "type": "paragraph",
+            "content": "Crude oil benchmarks witnessed a dramatic sell-off on Monday, with West Texas Intermediate (WTI) plunging over 5% to approximately $62.25 per barrel. This sharp reversal comes just days after the market hit multi-month highs, driven by escalating tensions in the Middle East. However, the focus has shifted abruptly toward fundamentals as record U.S. production and swill inventories begin to weigh on investor sentiment."
+        },
+        {
+            "type": "heading",
+            "content": "Oversupply Fears Resurface"
+        },
+        {
+            "type": "paragraph",
+            "content": "The U.S. Energy Information Administration (EIA) recently revised its 2026 forecast, projecting that global oil production will exceed demand throughout the year. With China's industrial recovery remaining patchy and European demand stalling, the specter of a global glut is haunting the markets once again. Analysts note that while geopolitical risks remain, the 'fear premium' is being rapidly priced out in favor of basic supply-demand dynamics. 'The market is reminding us that even the most intense geopolitical headlines can't mask an oversupplied physical market for long,' noted one senior energy economist."
+        }
+    ]
+}
