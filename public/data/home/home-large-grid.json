@@ -1,26 +1,38 @@
 [
-    {
-        "slug":  "treasury-liquidity-drain-150b-settlements-market-impact",
-        "title":  "Treasury Liquidity Drain: $150 Billion in Settlements Could Pressure Stocks and Crypto",
-        "category":  "TECH \u0026 FINANCE",
-        "shortdescription":  "Up to $150B in Treasury settlements may drain market liquidity, raising risks for stocks, crypto, and global markets as dollar funding and yen volatility rise.",
-        "description":  "Liquidity tightening ahead: Treasury supply spike puts markets on watch as $150 billion in settlements could pressure stocks, crypto, and global risk assets.",
-        "image":  "/images/treasury liquidity drain.webp",
-        "author":  "Gwen John",
-        "authorImage":  "/images/Author6.webp",
-        "role":  "Tech Finance Analyst",
-        "date":  "February 9, 2026"
-    },
-    {
-        "slug":  "americans-economic-outlook-2026-gallup-stock-market-inflation",
-        "title":  "Gallup Poll: U.S. Confidence in Markets Rebounds, Worries Over Prices and Employment Persist",
-        "category":  "ECONOMY",
-        "shortdescription":  "Americans expect stock market and economic growth to improve in 2026, but most still worry about rising inflation, unemployment, and household costs, Gallup finds.",
-        "description":  "Americans grow more optimistic on stocks and growth but fear inflation and job losses — new poll shows a divided nation bracing for higher prices and employment shifts in 2026.",
-        "image":  "/images/usaeconomy.webp",
-        "author":  "Macro Anton",
-        "authorImage":  "/images/Author7.webp",
-        "role":  "Chief Economist",
-        "date":  "February 10, 2026"
-    }
+  {
+    "slug": "paypal-stablecoin-pyrusd-2025-dominance",
+    "title": "PayPal's PYUSD Becomes #1 Stablecoin – Overtakes USDT in Daily Volume",
+    "category": "TECH & FINANCE",
+    "shortdescription": "PayPal's dollar stablecoin now used by 600 million users — Tether market share collapses.",
+    "description": "Venmo integrates PYUSD payments — daily volume hits $18B, surpassing USDT for first time in history.",
+    "image": "/images/paypal2.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "November 18, 2025"
+  },
+  {
+    "slug": "treasury-liquidity-drain-150b-settlements-market-impact",
+    "title": "Treasury Liquidity Drain: $150 Billion in Settlements Could Pressure Stocks and Crypto",
+    "category": "TECH \u0026 FINANCE",
+    "shortdescription": "Up to $150B in Treasury settlements may drain market liquidity, raising risks for stocks, crypto, and global markets as dollar funding and yen volatility rise.",
+    "description": "Liquidity tightening ahead: Treasury supply spike puts markets on watch as $150 billion in settlements could pressure stocks, crypto, and global risk assets.",
+    "image": "/images/treasury liquidity drain.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "February 9, 2026"
+  },
+  {
+    "slug": "americans-economic-outlook-2026-gallup-stock-market-inflation",
+    "title": "Gallup Poll: U.S. Confidence in Markets Rebounds, Worries Over Prices and Employment Persist",
+    "category": "ECONOMY",
+    "shortdescription": "Americans expect stock market and economic growth to improve in 2026, but most still worry about rising inflation, unemployment, and household costs, Gallup finds.",
+    "description": "Americans grow more optimistic on stocks and growth but fear inflation and job losses — new poll shows a divided nation bracing for higher prices and employment shifts in 2026.",
+    "image": "/images/usaeconomy.webp",
+    "author": "Macro Anton",
+    "authorImage": "/images/Author7.webp",
+    "role": "Chief Economist",
+    "date": "February 10, 2026"
+  }
 ]
