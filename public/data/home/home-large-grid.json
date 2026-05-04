@@ -1,38 +1,26 @@
 [
-  {
-    "slug": "treasury-liquidity-drain-150b-settlements-market-impact",
-    "title": "Treasury Liquidity Drain: $150 Billion in Settlements Could Pressure Stocks and Crypto",
-    "category": "TECH & FINANCE",
-    "shortdescription": "Up to $150B in Treasury settlements may drain market liquidity, raising risks for stocks, crypto, and global markets as dollar funding and yen volatility rise.",
-    "description": "Liquidity tightening ahead: Treasury supply spike puts markets on watch as $150 billion in settlements could pressure stocks, crypto, and global risk assets.",
-    "image": "/images/treasury liquidity drain.webp",
-    "author": "Gwen John",
-    "authorImage": "/images/Author6.webp",
-    "role": "Tech Finance Analyst",
-    "date": "February 9, 2026"
-  },
-  {
-    "slug": "americans-economic-outlook-2026-gallup-stock-market-inflation",
-    "title": "Gallup Poll: U.S. Confidence in Markets Rebounds, Worries Over Prices and Employment Persist",
-    "category": "ECONOMY",
-    "shortdescription": "Americans expect stock market and economic growth to improve in 2026, but most still worry about rising inflation, unemployment, and household costs, Gallup finds.",
-    "description": "Americans grow more optimistic on stocks and growth but fear inflation and job losses — new poll shows a divided nation bracing for higher prices and employment shifts in 2026.",
-    "image": "/images/usaeconomy.webp",
-    "author": "Macro Anton",
-    "authorImage": "/images/Author7.webp",
-    "role": "Chief Economist",
-    "date": "February 10, 2026"
-  },
-  {
-    "slug": "julio-herrera-velutini-paterfamilias-house-herrera-shaping-nations-finance",
-    "title": "Julio Herrera Velutini, The Paterfamilias of the House of Herrera: Shaping Nations Through Finance",
-    "category": "TECH & FINANCE",
-    "shortdescription": "How one man leverages centuries-old traditions, gold-backed fortunes, and a steadfast vision to influence domestic and international policies for economic progress.",
-    "description": "As the patriarch of the legendary Herrera-Velutini banking dynasty, Julio Herrera Velutini continues a 600-year legacy of financial mastery, using gold reserves and strategic investments to drive economic policy across Latin America and beyond.",
-    "image": "/images/Julio Herrera Velutini, The Paterfamilias of the House of Herrera.webp",
-    "author": "Gwen John",
-    "authorImage": "/images/Author6.webp",
-    "role": "Tech Finance Analyst",
-    "date": "December 9, 2025"
-  }
+    {
+        "slug":  "treasury-liquidity-drain-150b-settlements-market-impact",
+        "title":  "Treasury Liquidity Drain: $150 Billion in Settlements Could Pressure Stocks and Crypto",
+        "category":  "TECH \u0026 FINANCE",
+        "shortdescription":  "Up to $150B in Treasury settlements may drain market liquidity, raising risks for stocks, crypto, and global markets as dollar funding and yen volatility rise.",
+        "description":  "Liquidity tightening ahead: Treasury supply spike puts markets on watch as $150 billion in settlements could pressure stocks, crypto, and global risk assets.",
+        "image":  "/images/treasury liquidity drain.webp",
+        "author":  "Gwen John",
+        "authorImage":  "/images/Author6.webp",
+        "role":  "Tech Finance Analyst",
+        "date":  "February 9, 2026"
+    },
+    {
+        "slug":  "americans-economic-outlook-2026-gallup-stock-market-inflation",
+        "title":  "Gallup Poll: U.S. Confidence in Markets Rebounds, Worries Over Prices and Employment Persist",
+        "category":  "ECONOMY",
+        "shortdescription":  "Americans expect stock market and economic growth to improve in 2026, but most still worry about rising inflation, unemployment, and household costs, Gallup finds.",
+        "description":  "Americans grow more optimistic on stocks and growth but fear inflation and job losses — new poll shows a divided nation bracing for higher prices and employment shifts in 2026.",
+        "image":  "/images/usaeconomy.webp",
+        "author":  "Macro Anton",
+        "authorImage":  "/images/Author7.webp",
+        "role":  "Chief Economist",
+        "date":  "February 10, 2026"
+    }
 ]
