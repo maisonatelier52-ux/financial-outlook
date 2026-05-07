@@ -19,22 +19,25 @@ const Skeleton = () => <div className="h-96 bg-gray-900 animate-pulse rounded-lg
 
 
 
+import { getSortedArticles } from "../utils/news";
+
 export default async function HomePage() {
+  // Automatically pick the newest articles for each section
+  const allArticles = getSortedArticles();
+
+  const largeGridData = allArticles.slice(0, 3);      // Most newest
+  const regularGridData = allArticles.slice(3, 7);    // Next 4
+  const mainArticlesData = allArticles.slice(7, 13);  // Next 6
+  const latestArticlesData = allArticles.slice(13, 16); // Next 3
+
+  // Load other semi-static data
   const [
-    largeGridData,
-    mainArticlesData,
     mainArticlesData2,
     top5ArticlesData,
-    regularGridData,
-    latestArticlesData,
     popularArticlesData,
   ] = await Promise.all([
-    import("../../public/data/home/home-large-grid.json").then(m => m.default),
-    import("../../public/data/home/home-main-articles.json").then(m => m.default),
     import("../../public/data/home/home-main-articles2.json").then(m => m.default),
     import("../../public/data/home/home-top5-articles.json").then(m => m.default),
-    import("../../public/data/home/home-grid-articles.json").then(m => m.default),
-    import("../../public/data/home/home-latest-articles.json").then(m => m.default),
     import("../../public/data/home/home-popular-articles.json").then(m => m.default),
   ]);
 

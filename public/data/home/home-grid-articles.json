@@ -1,50 +1,50 @@
 [
   {
-    "slug": "google-quantum-computer-breakthrough-2025",
-    "title": "Google Achieves Quantum Supremacy 2.0 – Solves Problem in Seconds That Would Take Classical Computer 47,000 Years",
+    "slug": "treasury-liquidity-drain-150b-settlements-market-impact",
+    "title": "Treasury Liquidity Drain: $150 Billion in Settlements Could Pressure Stocks and Crypto",
     "category": "TECH & FINANCE",
-    "shortdescription": "Sycamore 3 quantum processor breaks all records as Google stock surges 18% on breakthrough announcement.",
-    "description": "Sycamore 3 completes calculation in 200 seconds that would take world's fastest supercomputer 47,000 years — Google stock jumps 18%.",
-    "image": "/images/Google Achieves Quantum Supremacy 2.0.webp",
+    "shortdescription": "Up to $150B in Treasury settlements may drain market liquidity, raising risks for stocks, crypto, and global markets as dollar funding and yen volatility rise.",
+    "description": "Up to $150B in Treasury settlements may drain market liquidity, raising risks for stocks, crypto, and global markets as dollar funding and yen volatility rise.",
+    "image": "/images/treasury liquidity drain.webp",
     "author": "Gwen John",
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
-    "date": "December 12, 2025"
+    "date": "February 9, 2026"
   },
   {
-    "slug": "us-january-jobs-report-2026-130k-payrolls-unemployment-fed-outlook",
-    "title": "January Jobs Report: Hiring Tops Expectations as Unemployment Falls to 4.3%",
-    "category": "ECONOMY",
-    "shortdescription": "The US added 130,000 jobs in January 2026, beating forecasts as unemployment fell to 4.3%. Strong headlines mask weak trends and heavy 2025 revisions.",
-    "description": "US labor market surprises with 130K jobs, but 2025 revisions reveal weakness. Hiring tops expectations as unemployment falls to 4.3% while warning signs remain.",
-    "image": "/images/US Adds.webp",
-    "author": "Macro Anton",
-    "authorImage": "/images/Author7.webp",
-    "role": "Chief Economist",
-    "date": "February 11, 2026"
+    "slug": "bitcoin-rebounds-60000-analysts-warn-further-losses",
+    "title": "Bitcoin Rebounds Above $60,000 but Analysts Warn of More Selling Ahead",
+    "category": "CRYPTO",
+    "shortdescription": "Bitcoin recovered from its previous low on Friday, narrowly escaping a drop below the critical $60,000 level, but some market analysts predicted further selling ahead.",
+    "description": "Bitcoin recovered from its previous low on Friday, narrowly escaping a drop below the critical $60,000 level, but some market analysts predicted further selling ahead.",
+    "image": "/images/Bitcoin ETFs Smash  50 Billion.webp",
+    "author": "Emma Chen",
+    "authorImage": "/images/Author2.webp",
+    "role": "Crypto Markets Analyst",
+    "date": "February 6, 2026"
   },
   {
-    "slug": "vanguard-index-fund-trillion-milestone-2025",
-    "title": "Vanguard Total Stock Market ETF Hits $1 Trillion – First Index Fund to Reach Milestone",
-    "category": "INVESTING",
-    "shortdescription": "VTI becomes world's largest fund as passive investing revolution reaches new heights.",
-    "description": "VTI reaches $1T AUM milestone — first index fund to hit trillion-dollar mark, validating Jack Bogle's vision.",
-    "image": "/images/Vanguard Total Stock Market ETF Hits $1 Trillion.webp",
-    "author": "Mark Blaze",
-    "authorImage": "/images/Author4.webp",
-    "role": "Value Investing Expert",
-    "date": "December 12, 2025"
+    "slug": "asian-markets-fall-wall-street-tech-selloff",
+    "title": "Asian Stocks Fall as Wall Street Tech Sell-Off Weighs on Global Markets",
+    "category": "MARKETS",
+    "shortdescription": "Asian shares fell Thursday after fresh declines in technology sectors weighed on Wall Street, reflecting global jitters over AI valuations.",
+    "description": "Asian shares fell Thursday after fresh declines in technology sectors weighed on Wall Street, reflecting global jitters over AI valuations.",
+    "image": "/images/asian stocks.webp",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "February 5, 2026"
   },
   {
-    "slug": "amazon-ai-assistant-dominance-2025",
-    "title": "Amazon Alexa AI Surpasses 1 Billion Active Users – Becomes World's Most Used AI Assistant",
+    "slug": "santander-acquisition-webster-financial-12-billion",
+    "title": "Santander Acquires Webster Financial for $12.3 Billion to Strengthen U.S. Market Position",
     "category": "TECH & FINANCE",
-    "shortdescription": "Alexa's new multimodal AI powers smart homes, cars, and offices as Amazon stock jumps 12%.",
-    "description": "Alexa reaches 1B monthly active users — surpasses Siri, Google Assistant, and Copilot combined as Amazon stock surges 12%.",
-    "image": "/images/Amazon Alexa AI Surpasses 1 Billion Active Users.webp",
+    "shortdescription": "Banco Santander has agreed to pay $12.3 billion to acquire Webster Financial, a strategic move to bolster its presence in the U.S. market.",
+    "description": "Banco Santander has agreed to pay $12.3 billion to acquire Webster Financial, a strategic move to bolster its presence in the U.S. market.",
+    "image": "/images/santander.webp",
     "author": "Gwen John",
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
-    "date": "December 12, 2025"
+    "date": "February 4, 2026"
   }
 ]
