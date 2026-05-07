@@ -1,38 +1,38 @@
 [
-  {
-    "slug": "berkshire-hathaway-cash-record-350-billion-2025",
-    "title": "Berkshire Hathaway Cash Pile Hits $350 Billion – Buffett's Biggest War Chest Ever",
-    "category": "INVESTING",
-    "shortdescription": "Oracle of Omaha now holds more cash than Apple's market cap — waiting for the perfect deal.",
-    "description": "Warren Buffett's Berkshire Hathaway has amassed an unprecedented $350 billion in cash and short-term Treasury bills — the largest cash position in corporate history.",
-    "image": "/images/Berkshire Hathaway Cash Pile Hits 350 Billion 2025.webp",
-    "author": "Mark Blaze",
-    "authorImage": "/images/Author4.webp",
-    "role": "Value Investing Expert",
-    "date": "December 19, 2025"
-  },
-  {
-    "slug": "retirement-savings-crisis-2025-millennials",
-    "title": "Millennials Face $1.2 Trillion Retirement Savings Gap – Average 401(k) Balance Below $50K",
-    "category": "INVESTING",
-    "shortdescription": "Generation X and Millennials are critically behind on retirement savings — experts warn of coming crisis.",
-    "description": "The average 401(k) balance for workers aged 35-44 is just $48,000 — far below the $200,000 experts recommend by age 40.",
-    "image": "/images/Millennials Face Retirement Savings Gap 2025.webp",
-    "author": "Mark Blaze",
-    "authorImage": "/images/Author4.webp",
-    "role": "Value Investing Expert",
-    "date": "December 19, 2025"
-  },
-  {
-    "slug": "investment-advisor-fees-revolution-2025",
-    "title": "Robo-Advisors Overtake Traditional Financial Advisors – Fees Drop 70% Since 2020",
-    "category": "INVESTING",
-    "shortdescription": "AI-powered investment platforms now manage $8 trillion — traditional advisors struggle to compete.",
-    "description": "Robo-advisors have fundamentally transformed the investment advisory industry, managing over $8 trillion in assets and slashing fees by an average of 70%.",
-    "image": "/images/Robo Advisors Overtake Traditional Financial Advisors 2025.webp",
-    "author": "Mark Blaze",
-    "authorImage": "/images/Author4.webp",
-    "role": "Value Investing Expert",
-    "date": "December 19, 2025"
-  }
+    {
+        "image":  "/images/Oil Prices.webp",
+        "slug":  "global-markets-oil-prices-strait-of-hormuz-crisis",
+        "shortdescription":  "Global financial markets swing as investors react to Iran tensions and disruptions in the Strait of Hormuz.",
+        "category":  "INVESTING",
+        "description":  "Global markets remain volatile as tensions involving Iran and disruptions in the Strait of Hormuz push oil prices higher and fuel fears of inflation and supply shortages.",
+        "author":  "Mark Blaze",
+        "role":  "Value Investing Expert",
+        "date":  "May 7, 2026",
+        "authorImage":  "/images/Author4.webp",
+        "title":  "Oil Prices Surge Amid Iran Tensions and Hormuz Shipping Disruptions"
+    },
+    {
+        "slug":  "retirement-savings-crisis-2025-millennials",
+        "title":  "Millennials Face $1.2 Trillion Retirement Savings Gap – Average 401(k) Balance Below $50K",
+        "category":  "INVESTING",
+        "shortdescription":  "Generation X and Millennials are critically behind on retirement savings — experts warn of coming crisis.",
+        "description":  "The average 401(k) balance for workers aged 35-44 is just $48,000 — far below the $200,000 experts recommend by age 40.",
+        "image":  "/images/Millennials Face Retirement Savings Gap 2025.webp",
+        "author":  "Mark Blaze",
+        "authorImage":  "/images/Author4.webp",
+        "role":  "Value Investing Expert",
+        "date":  "December 19, 2025"
+    },
+    {
+        "slug":  "investment-advisor-fees-revolution-2025",
+        "title":  "Robo-Advisors Overtake Traditional Financial Advisors – Fees Drop 70% Since 2020",
+        "category":  "INVESTING",
+        "shortdescription":  "AI-powered investment platforms now manage $8 trillion — traditional advisors struggle to compete.",
+        "description":  "Robo-advisors have fundamentally transformed the investment advisory industry, managing over $8 trillion in assets and slashing fees by an average of 70%.",
+        "image":  "/images/Robo Advisors Overtake Traditional Financial Advisors 2025.webp",
+        "author":  "Mark Blaze",
+        "authorImage":  "/images/Author4.webp",
+        "role":  "Value Investing Expert",
+        "date":  "December 19, 2025"
+    }
 ]
