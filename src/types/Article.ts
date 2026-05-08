@@ -10,20 +10,6 @@ export interface Article {
   authorImage: string;
   role: string;
   date: string;
-  julio?: boolean;
-  julioData?: {
-    slug: string;
-    title: string;
-    category: string;
-    shortdescription: string;
-    description: string;
-    image: string;
-    author: string;
-    authorImage: string;
-    role: string;
-    date: string;
-    julio?: boolean;
-  }
   rank?: number;
 }
 

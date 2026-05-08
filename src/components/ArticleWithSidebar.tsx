@@ -9,7 +9,7 @@ interface Props {
   article: any;
 }
 
-const ArticleWithSidebar: React.FC<Props> = ({ top5Articles, article }) => {  
+const ArticleWithSidebar: React.FC<Props> = ({ top5Articles, article }) => {
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const ArticleWithSidebar: React.FC<Props> = ({ top5Articles, article }) => {
     const handleScroll = () => {
       const sidebarRect = sidebar.getBoundingClientRect();
       const articleRect = articleEnd.getBoundingClientRect();
-     setIsSticky(sidebarRect.top <= 20 && articleRect.bottom > 0);
+      setIsSticky(sidebarRect.top <= 20 && articleRect.bottom > 0);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -32,7 +32,7 @@ const ArticleWithSidebar: React.FC<Props> = ({ top5Articles, article }) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-6 gap-4 px-2 py-4 bg-black">
 
-       {/* Right: Article + End Marker */}
+      {/* Right: Article + End Marker */}
       <div className="lg:col-span-4">
         <MainArticleDetail article={article} />
         <div className="article-end h-1"></div> {/* Invisible marker */}
@@ -40,11 +40,11 @@ const ArticleWithSidebar: React.FC<Props> = ({ top5Articles, article }) => {
       {/* Left: Sticky Top 5 */}
       <aside className="lg:col-span-2">
         <div className={`sidebar-sticky ${isSticky ? "sticky top-5 z-10" : ""}`}>
-          <Top5Sidebar articles={top5Articles} isSticky={isSticky} julioArticle={article.julioData} />
+          <Top5Sidebar articles={top5Articles} isSticky={isSticky} />
         </div>
       </aside>
 
-     
+
     </div>
   );
 };

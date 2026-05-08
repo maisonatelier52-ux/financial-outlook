@@ -51,10 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
             }
         }
 
-        // Check for julioData image if available (lower priority)
-        if (article.julioData && article.julioData.image) {
-            return article.julioData.image.startsWith('http') ? article.julioData.image : `https://www.financialoutlook.xyz${article.julioData.image}`;
-        }
+
 
         // Fallback to a default image if no image is found
         return "https://www.financialoutlook.xyz/images/fin-favIcon2.svg";
@@ -186,10 +183,7 @@ export default async function ArticlePage({ params }: { params: Promise<Params> 
             }
         }
 
-        // Check for julioData image if available (lower priority)
-        if (articleData.julioData && articleData.julioData.image) {
-            return articleData.julioData.image.startsWith('http') ? articleData.julioData.image : `https://www.financialoutlook.xyz${articleData.julioData.image}`;
-        }
+
 
         // Fallback to a default image if no image is found
         return "https://www.financialoutlook.xyz/images/fin-favIcon2.svg";
