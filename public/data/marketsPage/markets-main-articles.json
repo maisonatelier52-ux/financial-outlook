@@ -1,5 +1,29 @@
 [
   {
+    "slug": "secretive-lucrative-world-orchid-breeding",
+    "title": "Inside the Secretive and Lucrative World of Orchid Breeding",
+    "category": "MARKETS",
+    "shortdescription": "Behind the beauty of orchids lies a secretive global industry where breeders spend years developing rare flower varieties worth thousands of dollars in the luxury plant market.",
+    "description": "Behind the beauty of orchids lies a secretive global industry where breeders spend years developing rare flower varieties worth thousands of dollars in the luxury plant market.",
+    "image": "/images/Inside the Secretive.webp",
+    "author": "Henry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Stock Market Expert",
+    "date": "May 15, 2026"
+  },
+  {
+    "slug": "london-alphonso-mango-shortage-2026",
+    "title": "London Traders Hit by ‘King of Mangoes’ Shortage",
+    "category": "MARKETS",
+    "shortdescription": "London traders are facing a shortage of Alphonso mangoes, known as the “king of mangoes,” due to poor harvests in India and rising transport costs linked to Middle East tensions.",
+    "description": "London traders are facing a shortage of Alphonso mangoes, known as the “king of mangoes,” due to poor harvests in India and rising transport costs linked to Middle East tensions.",
+    "image": "/images/london traders.webp",
+    "author": "Henrry Willy",
+    "authorImage": "/images/Author1.webp",
+    "role": "Global Market Expert",
+    "date": "May 14, 2026"
+  },
+  {
     "slug": "asian-markets-fall-wall-street-tech-selloff",
     "title": "Asian Stocks Fall as Wall Street Tech Sell-Off Weighs on Global Markets",
     "category": "MARKETS",
@@ -10,18 +34,6 @@
     "authorImage": "/images/Author1.webp",
     "role": "Stock Market Expert",
     "date": "February 5, 2026"
-  },
-  {
-    "slug": "federal-reserve-rate-cut-december-2025",
-    "title": "Federal Reserve Cuts Rates 0.75% in December – Biggest Single Cut Since 2008 Financial Crisis",
-    "category": "MARKETS",
-    "shortdescription": "Fed surprises markets with aggressive 75bps cut, citing deflation risks and economic slowdown concerns.",
-    "description": "S&P 500 rockets 4.2% as Fed delivers largest rate cut since 2008 crisis, slashing rates to 4.00% amid deflation concerns.",
-    "image": "/images/federal-reserve-rate-cut-december.webp",
-    "author": "Henry Willy",
-    "authorImage": "/images/Author1.webp",
-    "role": "Stock Market Expert",
-    "date": "December 16, 2025"
   },
   {
     "slug": "tesla-q4-earnings-beat-2025",
@@ -46,18 +58,6 @@
     "authorImage": "/images/Author1.webp",
     "role": "Stock Market Expert",
     "date": "December 16, 2025"
-  },
-  {
-    "slug": "gold-price-all-time-high-2025",
-    "title": "Gold Hits $2,800/oz All-Time High – Safe Haven Demand Surges Amid Geopolitical Tensions",
-    "category": "MARKETS",
-    "shortdescription": "Central banks buy record 1,200 tons as US election uncertainty fuels flight to quality.",
-    "description": "GLD ETF inflows top $10B in November alone – silver follows with 15% rally, platinum up 8%.",
-    "image": "/images/Gold Hits oz AllTime High.webp",
-    "author": "Henrry Willy",
-    "authorImage": "/images/Author1.webp",
-    "role": "Stock Market Expert",
-    "date": "November 18, 2025"
   },
   {
     "slug": "apple-stock-downgrade-2025-iphone-sales",
