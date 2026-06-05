@@ -1,5 +1,41 @@
 [
     {
+        "author": "Gwen John",
+        "slug": "ai-brain-condition-drug-discovery",
+        "description": "Researchers say artificial intelligence could dramatically speed up the discovery of new treatments for brain disorders by helping scientists identify promising drug candidates faster and more accurately.",
+        "shortdescription": "Researchers say artificial intelligence could dramatically speed up the discovery of new treatments for brain disorders by helping scientists identify promising drug candidates faster and more accurately.",
+        "date": "May 25, 2026",
+        "category": "TECH & FINANCE",
+        "title": "Artificial Intelligence May Transform Drug Discovery for Brain Conditions"
+    },
+    {
+        "author": "Henry Willy",
+        "slug": "spacex-starship-launch-delay-share-sale",
+        "description": "SpaceX postponed its latest Starship launch as the company prepares for a major share sale that could value Elon Musk’s aerospace giant at more than $200 billion.",
+        "shortdescription": "SpaceX postponed its latest Starship launch as the company prepares for a major share sale that could value Elon Musk’s aerospace giant at more than $200 billion.",
+        "date": "May 22, 2026",
+        "category": "MARKETS",
+        "title": "SpaceX Postpones Starship Test Ahead of Massive Share Sale"
+    },
+    {
+        "author": "Gwen John",
+        "slug": "kansas-city-schools-apple-device-upgrade",
+        "description": "Kansas City Public Schools are replacing 30,000 Chromebooks and Windows computers with Apple devices in a major technology transformation aimed at improving digital learning and classroom experiences.",
+        "shortdescription": "Kansas City Public Schools are replacing 30,000 Chromebooks and Windows computers with Apple devices in a major technology transformation aimed at improving digital learning and classroom experiences.",
+        "date": "May 21, 2026",
+        "category": "TECH & FINANCE",
+        "title": "Kansas City Schools Replace 30,000 Chromebooks and PCs With Apple Devices"
+    },
+    {
+        "author": "Gwen John",
+        "slug": "standard-chartered-ai-job-cuts-2026",
+        "description": "Standard Chartered plans to cut more than 7,000 jobs by 2030 as the global bank increases its use of artificial intelligence and automation to improve efficiency and profitability.",
+        "shortdescription": "Standard Chartered plans to cut more than 7,000 jobs by 2030 as the global bank increases its use of artificial intelligence and automation to improve efficiency and profitability.",
+        "date": "May 19, 2026",
+        "category": "TECH & FINANCE",
+        "title": "Standard Chartered to Cut Thousands of Roles as AI Use Increases"
+    },
+    {
         "author": "Henry Willy",
         "slug": "secretive-lucrative-world-orchid-breeding",
         "description": "Behind the beauty of orchids lies a secretive global industry where breeders spend years developing rare flower varieties worth thousands of dollars in the luxury plant market.",
@@ -81,15 +117,6 @@
         "date": "December 16, 2025"
     },
     {
-        "slug": "santander-acquisition-webster-financial-12-billion",
-        "title": "Santander Acquires Webster Financial for $12.3 Billion to Strengthen U.S. Market Position",
-        "shortdescription": "Banco Santander has agreed to pay $12.3 billion to acquire Webster Financial, a strategic move to bolster its presence in the U.S. market.",
-        "description": "",
-        "category": "TECH \u0026 FINANCE",
-        "author": "Gwen John",
-        "date": "February 4, 2026"
-    },
-    {
         "slug": "apple-stock-downgrade-2025-iphone-sales",
         "title": "Apple Stock Downgraded to \u0027Sell\u0027 After iPhone Sales Miss Q4 Estimates",
         "shortdescription": "AAPL down 5% pre-market as China market share drops to 18% from 22%.",
@@ -151,15 +178,6 @@
         "category": "REAL ESTATE",
         "author": "Jonathan Gill",
         "date": "December 20, 2025"
-    },
-    {
-        "slug": "google-quantum-computer-breakthrough-2025",
-        "title": "Google Achieves Quantum Supremacy 2.0 – Solves Problem in Seconds That Would Take Classical Computer 47,000 Years",
-        "shortdescription": "Sycamore 3 quantum processor breaks all records as Google stock surges 18% on breakthrough announcement.",
-        "description": "",
-        "category": "TECH \u0026 FINANCE",
-        "author": "Gwen John",
-        "date": "December 12, 2025"
     },
     {
         "slug": "silver-price-record-2025",
@@ -378,15 +396,6 @@
         "date": "February 2, 2026"
     },
     {
-        "slug": "amazon-ai-assistant-dominance-2025",
-        "title": "Amazon Alexa AI Surpasses 1 Billion Active Users – Becomes World\u0027s Most Used AI Assistant",
-        "shortdescription": "Alexa\u0027s new multimodal AI powers smart homes, cars, and offices as Amazon stock jumps 12%.",
-        "description": "",
-        "category": "TECH \u0026 FINANCE",
-        "author": "Gwen John",
-        "date": "December 12, 2025"
-    },
-    {
         "slug": "paypal-stablecoin-pyrusd-2025-dominance",
         "title": "PayPal\u0027s PYUSD Becomes #1 Stablecoin – Overtakes USDT in Daily Volume",
         "shortdescription": "PayPal\u0027s dollar stablecoin now used by 600 million users — Tether market share collapses.",
@@ -484,15 +493,6 @@
         "category": "MARKETS",
         "author": "Henry Willy",
         "date": "November 16, 2025"
-    },
-    {
-        "slug": "tesla-q4-earnings-beat-2025",
-        "title": "Tesla Unveils Model 3 Redesign and $25K Entry Model – Stock Jumps 12% on Production Timeline",
-        "shortdescription": "Elon Musk reveals new compact EV will begin deliveries in Q2 2026, targeting 5 million units annually.",
-        "description": "",
-        "category": "MARKETS",
-        "author": "Henry Willy",
-        "date": "December 16, 2025"
     },
     {
         "slug": "texas-housing-boom-2025-austin-dallas",

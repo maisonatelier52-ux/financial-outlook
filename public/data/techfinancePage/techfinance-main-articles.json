@@ -1,27 +1,39 @@
 [
   {
-    "slug": "amazon-ai-assistant-dominance-2025",
-    "title": "Amazon Alexa AI Surpasses 1 Billion Active Users – Becomes World's Most Used AI Assistant",
+    "slug": "ai-brain-condition-drug-discovery",
+    "title": "Artificial Intelligence May Transform Drug Discovery for Brain Conditions",
     "category": "TECH & FINANCE",
-    "shortdescription": "Alexa's new multimodal AI powers smart homes, cars, and offices as Amazon stock jumps 12%.",
-    "description": "Alexa reaches 1B monthly active users — surpasses Siri, Google Assistant, and Copilot combined as Amazon stock surges 12%.",
-    "image": "/images/Amazon Alexa AI Surpasses 1 Billion Active Users.webp",
+    "shortdescription": "Researchers say artificial intelligence could dramatically speed up the discovery of new treatments for brain disorders by helping scientists identify promising drug candidates faster and more accurately.",
+    "description": "Researchers say artificial intelligence could dramatically speed up the discovery of new treatments for brain disorders by helping scientists identify promising drug candidates faster and more accurately.",
+    "image": "/images/AI Could Accelerate.webp",
     "author": "Gwen John",
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
-    "date": "December 12, 2025"
+    "date": "May 25, 2026"
   },
   {
-    "slug": "santander-acquisition-webster-financial-12-billion",
-    "title": "Santander Acquires Webster Financial for $12.3 Billion to Strengthen U.S. Market Position",
+    "slug": "kansas-city-schools-apple-device-upgrade",
+    "title": "Kansas City Schools Replace 30,000 Chromebooks and PCs With Apple Devices",
     "category": "TECH & FINANCE",
-    "shortdescription": "Banco Santander has agreed to pay $12.3 billion to acquire Webster Financial, a strategic move to bolster its presence in the U.S. market.",
-    "description": "The $12.3 billion acquisition will make Santander the largest bank in Connecticut by deposit share, overtaking Bank of America.",
-    "image": "/images/santander.webp",
+    "shortdescription": "Kansas City Public Schools are replacing 30,000 Chromebooks and Windows computers with Apple devices in a major technology transformation aimed at improving digital learning and classroom experiences.",
+    "description": "Kansas City Public Schools are replacing 30,000 Chromebooks and Windows computers with Apple devices in a major technology transformation aimed at improving digital learning and classroom experiences.",
+    "image": "/images/Kansas City Schools.webp",
     "author": "Gwen John",
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
-    "date": "February 4, 2026"
+    "date": "May 21, 2026"
+  },
+  {
+    "slug": "standard-chartered-ai-job-cuts-2026",
+    "title": "Standard Chartered to Cut Thousands of Roles as AI Use Increases",
+    "category": "TECH & FINANCE",
+    "shortdescription": "Standard Chartered plans to cut more than 7,000 jobs by 2030 as the global bank increases its use of artificial intelligence and automation to improve efficiency and profitability.",
+    "description": "Standard Chartered plans to cut more than 7,000 jobs by 2030 as the global bank increases its use of artificial intelligence and automation to improve efficiency and profitability.",
+    "image": "/images/Standard Chartered.webp",
+    "author": "Gwen John",
+    "authorImage": "/images/Author6.webp",
+    "role": "Tech Finance Analyst",
+    "date": "May 19, 2026"
   },
   {
     "slug": "treasury-liquidity-drain-150b-settlements-market-impact",
@@ -34,18 +46,6 @@
     "authorImage": "/images/Author6.webp",
     "role": "Tech Finance Analyst",
     "date": "February 9, 2026"
-  },
-  {
-    "slug": "google-quantum-computer-breakthrough-2025",
-    "title": "Google Achieves Quantum Supremacy 2.0 – Solves Problem in Seconds That Would Take Classical Computer 47,000 Years",
-    "category": "TECH & FINANCE",
-    "shortdescription": "Sycamore 3 quantum processor breaks all records as Google stock surges 18% on breakthrough announcement.",
-    "description": "Sycamore 3 completes calculation in 200 seconds that would take world's fastest supercomputer 47,000 years — Google stock jumps 18%.",
-    "image": "/images/Google Achieves Quantum Supremacy 2.0.webp",
-    "author": "Gwen John",
-    "authorImage": "/images/Author6.webp",
-    "role": "Tech Finance Analyst",
-    "date": "December 12, 2025"
   },
   {
     "slug": "pslv-c62-launch-failure-isro-eos-n1-anomaly",
